@@ -102,7 +102,7 @@ export default function Footer() {
             </div>
             
             <p className="text-gray-400 text-sm mb-6">
-              L'agence qui génère 10-45 nouveaux clients B2B pour votre entreprise grâce à la prospection automatisée ultra-personnalisée.
+              L&apos;agence qui génère 10-45 nouveaux clients B2B pour votre entreprise grâce à la prospection automatisée ultra-personnalisée.
             </p>
 
             {/* Contact Info */}
@@ -234,7 +234,7 @@ export default function Footer() {
       {/* Zone d'intervention */}
       <div className="border-t border-gray-800">
         <div className="max-w-6xl mx-auto px-6 py-8">
-          <h4 className="font-semibold text-lg mb-4 text-center">🏝️ Zones d'intervention Antilles</h4>
+          <h4 className="font-semibold text-lg mb-4 text-center">🏝️ Zones d&apos;intervention Antilles</h4>
           <div className="flex flex-wrap justify-center gap-3">
             {zones.map((zone) => (
               <span
