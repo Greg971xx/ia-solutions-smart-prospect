@@ -88,12 +88,12 @@ export default function AboutPage() {
                   Ma mission
                 </h2>
                 <p className="text-blue-100 text-lg leading-relaxed mb-6">
-                  Transformer la prospection B2B des entreprises antillaises grâce à l'intelligence artificielle, en leur offrant des solutions professionnelles testées et validées en environnement exigeant.
+                  Transformer la prospection B2B des entreprises antillaises grâce à l&apos;intelligence artificielle, en leur offrant des solutions professionnelles testées et validées en environnement exigeant.
                 </p>
                 <div className="bg-white/5 rounded-2xl p-6 border border-white/10">
                   <p className="text-white font-semibold mb-2">🎯 Vision</p>
                   <p className="text-blue-200 text-sm">
-                    Rendre l'IA accessible aux PME locales, en leur apportant des outils concrets qui génèrent des résultats mesurables dès les premières semaines.
+                    Rendre l&apos;IA accessible aux PME locales, en leur apportant des outils concrets qui génèrent des résultats mesurables dès les premières semaines.
                   </p>
                 </div>
               </div>
@@ -109,7 +109,7 @@ export default function AboutPage() {
                 Un parcours atypique
               </h2>
               <p className="text-xl text-blue-200 max-w-3xl mx-auto">
-                De la défense à l'entrepreneuriat tech : comment l'IA a tout changé
+                De la défense à l&apos;entrepreneuriat tech : comment l&apos;IA a tout changé
               </p>
             </div>
 
@@ -121,14 +121,14 @@ export default function AboutPage() {
                   1997-2017
                 </h3>
                 <h4 className="text-lg font-semibold text-blue-300 mb-4">
-                  Sous-officier Systèmes d'Information
+                  Sous-officier Systèmes d&apos;Information
                 </h4>
                 <p className="text-blue-100 mb-4">
-                  20 ans dans l'armée française, spécialisé dans la mise en œuvre et la sécurisation de systèmes d'information de défense.
+                  20 ans dans l&apos;armée française, spécialisé dans la mise en œuvre et la sécurisation de systèmes d&apos;information de défense.
                 </p>
                 <div className="bg-white/5 rounded-xl p-4 border border-white/10">
                   <p className="text-xs text-blue-200">
-                    <strong className="text-white">Compétences clés :</strong> Administration réseaux complexes, gestion de projets critiques, management d'équipes techniques
+                    <strong className="text-white">Compétences clés :</strong> Administration réseaux complexes, gestion de projets critiques, management d&apos;équipes techniques
                   </p>
                 </div>
               </div>
@@ -147,7 +147,7 @@ export default function AboutPage() {
                 </p>
                 <div className="bg-white/5 rounded-xl p-4 border border-white/10">
                   <p className="text-xs text-blue-200">
-                    <strong className="text-white">Révélation :</strong> Constat du retard technologique et du potentiel inexploité de l'IA pour les entreprises locales
+                    <strong className="text-white">Révélation :</strong> Constat du retard technologique et du potentiel inexploité de l&apos;IA pour les entreprises locales
                   </p>
                 </div>
               </div>
@@ -156,13 +156,13 @@ export default function AboutPage() {
               <div className="bg-gradient-to-br from-purple-800/30 to-pink-900/30 backdrop-blur-sm rounded-3xl p-8 border-2 border-purple-500/30">
                 <div className="text-5xl mb-4">🤖</div>
                 <h3 className="text-2xl font-bold text-white mb-3">
-                  2023-Aujourd'hui
+                  2023-Aujourd&apos;hui
                 </h3>
                 <h4 className="text-lg font-semibold text-purple-300 mb-4">
                   Expert IA & Développeur
                 </h4>
                 <p className="text-blue-100 mb-4">
-                  Plongée intensive dans l'IA et le développement Python. Création de Smart Prospect suite à un besoin réel en entreprise.
+                  Plongée intensive dans l&apos;IA et le développement Python. Création de Smart Prospect suite à un besoin réel en entreprise.
                 </p>
                 <div className="bg-white/5 rounded-xl p-4 border border-white/10">
                   <p className="text-xs text-blue-200">
@@ -185,7 +185,7 @@ export default function AboutPage() {
                 Comment Smart Prospect est né
               </h2>
               <p className="text-xl text-blue-200 max-w-3xl mx-auto">
-                De l'identification d'un besoin réel à la validation en environnement professionnel exigeant
+                De l&apos;identification d&apos;un besoin réel à la validation en environnement professionnel exigeant
               </p>
             </div>
 
@@ -201,7 +201,7 @@ export default function AboutPage() {
                   <div className="flex-1">
                     <h3 className="text-2xl font-bold text-white mb-3">Le constat terrain</h3>
                     <p className="text-blue-200 mb-4 text-lg">
-                      En 2024, au sein d'un grand groupe de la distribution, j'ai observé une problématique récurrente : l'équipe commerciale passait <strong className="text-white">des dizaines d'heures par mois</strong> à identifier et contacter manuellement des prospects B2B.
+                      En 2024, au sein d&apos;un grand groupe de la distribution, j&apos;ai observé une problématique récurrente : l&apos;équipe commerciale passait <strong className="text-white">des dizaines d&apos;heures par mois</strong> à identifier et contacter manuellement des prospects B2B.
                     </p>
                     <div className="bg-red-900/20 rounded-xl p-6 border border-red-500/30">
                       <p className="text-red-200 mb-3">
@@ -219,16 +219,16 @@ export default function AboutPage() {
                 </div>
               </div>
 
-              {/* Étape 2 : L'idée */}
+              {/* Étape 2 : L&apos;idée */}
               <div className="bg-gradient-to-br from-blue-800/30 to-indigo-900/30 backdrop-blur-sm rounded-3xl p-8 md:p-10 border-2 border-blue-500/30">
                 <div className="flex items-start gap-6">
                   <div className="flex-shrink-0 w-16 h-16 bg-blue-600 rounded-full flex items-center justify-center text-white font-bold text-2xl shadow-lg">
                     2
                   </div>
                   <div className="flex-1">
-                    <h3 className="text-2xl font-bold text-white mb-3">L'idée : automatiser l'intelligence commerciale</h3>
+                    <h3 className="text-2xl font-bold text-white mb-3">L&apos;idée : automatiser l&apos;intelligence commerciale</h3>
                     <p className="text-blue-200 mb-4 text-lg">
-                      Face à ce besoin concret, j'ai développé Smart Prospect : une solution qui combine <strong className="text-white">recherche automatisée</strong> et <strong className="text-white">personnalisation par IA</strong>.
+                      Face à ce besoin concret, j&apos;ai développé Smart Prospect : une solution qui combine <strong className="text-white">recherche automatisée</strong> et <strong className="text-white">personnalisation par IA</strong>.
                     </p>
                     <div className="grid md:grid-cols-2 gap-4">
                       <div className="bg-white/5 rounded-xl p-5 border border-blue-400/30">
@@ -246,7 +246,7 @@ export default function AboutPage() {
                           Personnalisation IA
                         </h4>
                         <p className="text-sm text-blue-100">
-                          Messages adaptés à chaque secteur d'activité, taille d'entreprise et besoin spécifique
+                          Messages adaptés à chaque secteur d&apos;activité, taille d&apos;entreprise et besoin spécifique
                         </p>
                       </div>
                     </div>
@@ -263,7 +263,7 @@ export default function AboutPage() {
                   <div className="flex-1">
                     <h3 className="text-2xl font-bold text-white mb-3">Développement & itérations</h3>
                     <p className="text-blue-200 mb-4 text-lg">
-                      6 mois de développement intensif en Python, avec plusieurs phases de tests et d'améliorations basées sur les retours terrain.
+                      6 mois de développement intensif en Python, avec plusieurs phases de tests et d&apos;améliorations basées sur les retours terrain.
                     </p>
                     <div className="space-y-3">
                       <div className="bg-white/5 rounded-xl p-5 border border-purple-400/30">
@@ -307,7 +307,7 @@ export default function AboutPage() {
                   <div className="flex-1">
                     <h3 className="text-2xl font-bold text-white mb-3">Validation en environnement exigeant</h3>
                     <p className="text-blue-200 mb-4 text-lg">
-                      Smart Prospect a été testé et validé au sein d'un grand groupe de la distribution, dans un contexte professionnel exigeant avec <strong className="text-white">des résultats mesurables</strong>.
+                      Smart Prospect a été testé et validé au sein d&apos;un grand groupe de la distribution, dans un contexte professionnel exigeant avec <strong className="text-white">des résultats mesurables</strong>.
                     </p>
                     <div className="bg-green-900/20 rounded-xl p-6 border border-green-500/30 mb-4">
                       <p className="text-green-200 mb-3">
@@ -318,19 +318,19 @@ export default function AboutPage() {
                         <li>• Taux de réponse multiplié par <strong className="text-white">3 à 5</strong> grâce à la personnalisation</li>
                         <li>• <strong className="text-white">plusieurs centaines de prospects qualifiés</strong> identifiés par campagne</li>
                         <li>• Validation par la direction commerciale du groupe</li>
-                        <li>• Demande d'extension à d'autres départements</li>
+                        <li>• Demande d&apos;extension à d&apos;autres départements</li>
                       </ul>
                     </div>
                     <div className="bg-white/5 rounded-xl p-5 border border-green-400/30">
                       <p className="text-green-200 text-sm italic">
-                        💡 <strong className="text-white">Leçon clé :</strong> Smart Prospect n'est pas une "belle idée théorique" — c'est un outil qui a fait ses preuves dans un environnement professionnel exigeant, avec des objectifs chiffrés et une pression de résultats réelle.
+                        💡 <strong className="text-white">Leçon clé :</strong> Smart Prospect n&apos;est pas une &quot;belle idée théorique&quot; — c&apos;est un outil qui a fait ses preuves dans un environnement professionnel exigeant, avec des objectifs chiffrés et une pression de résultats réelle.
                       </p>
                     </div>
                   </div>
                 </div>
               </div>
 
-              {/* Étape 5 : L'agence */}
+              {/* Étape 5 : L&apos;agence */}
               <div className="bg-gradient-to-br from-orange-800/30 to-red-900/30 backdrop-blur-sm rounded-3xl p-8 md:p-10 border-2 border-orange-500/30">
                 <div className="flex items-start gap-6">
                   <div className="flex-shrink-0 w-16 h-16 bg-orange-600 rounded-full flex items-center justify-center text-white font-bold text-2xl shadow-lg">
@@ -339,13 +339,13 @@ export default function AboutPage() {
                   <div className="flex-1">
                     <h3 className="text-2xl font-bold text-white mb-3">Ouverture aux entreprises antillaises</h3>
                     <p className="text-blue-200 mb-4 text-lg">
-                      Suite à ce succès, j'ai décidé de rendre Smart Prospect accessible aux PME et grands comptes de la Guadeloupe, Martinique et Guyane sous forme d'<strong className="text-white">agence de prospection B2B</strong>.
+                      Suite à ce succès, j&apos;ai décidé de rendre Smart Prospect accessible aux PME et grands comptes de la Guadeloupe, Martinique et Guyane sous forme d&apos;<strong className="text-white">agence de prospection B2B</strong>.
                     </p>
                     <div className="grid md:grid-cols-2 gap-4">
                       <div className="bg-white/5 rounded-xl p-5 border border-orange-400/30">
                         <h4 className="font-bold text-white mb-2">🎯 Pourquoi une agence ?</h4>
                         <p className="text-sm text-blue-100">
-                          Plutôt qu'un SaaS complexe à maîtriser, nous gérons tout de A à Z : vous recevez directement des conversations qualifiées, sans vous soucier de la technique.
+                          Plutôt qu&apos;un SaaS complexe à maîtriser, nous gérons tout de A à Z : vous recevez directement des conversations qualifiées, sans vous soucier de la technique.
                         </p>
                       </div>
                       <div className="bg-white/5 rounded-xl p-5 border border-orange-400/30">
@@ -364,10 +364,10 @@ export default function AboutPage() {
             {/* CTA Final */}
             <div className="mt-12 text-center bg-gradient-to-r from-blue-600 to-purple-600 rounded-2xl p-8 md:p-12">
               <h3 className="text-3xl font-bold text-white mb-4">
-                Smart Prospect n'est pas une promesse, c'est une réalité prouvée
+                Smart Prospect n&apos;est pas une promesse, c&apos;est une réalité prouvée
               </h3>
               <p className="text-blue-100 mb-8 max-w-2xl mx-auto text-lg">
-                Testé et validé dans un environnement professionnel exigeant, Smart Prospect est aujourd'hui disponible pour votre entreprise.
+                Testé et validé dans un environnement professionnel exigeant, Smart Prospect est aujourd&apos;hui disponible pour votre entreprise.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Link 
@@ -395,7 +395,7 @@ export default function AboutPage() {
                 Pourquoi me faire confiance ?
               </h2>
               <p className="text-xl text-blue-200 max-w-3xl mx-auto">
-                Au-delà de l'outil, une approche rigoureuse et des valeurs solides
+                Au-delà de l&apos;outil, une approche rigoureuse et des valeurs solides
               </p>
             </div>
 
@@ -407,7 +407,7 @@ export default function AboutPage() {
                   Rigueur opérationnelle
                 </h3>
                 <p className="text-blue-100">
-                  20 ans d'expérience militaire où la précision, la fiabilité et le respect des délais sont des impératifs absolus. Cette rigueur se retrouve dans chaque campagne Smart Prospect.
+                  20 ans d&apos;expérience militaire où la précision, la fiabilité et le respect des délais sont des impératifs absolus. Cette rigueur se retrouve dans chaque campagne Smart Prospect.
                 </p>
               </div>
 
@@ -417,7 +417,7 @@ export default function AboutPage() {
                   Sécurité & Conformité
                 </h3>
                 <p className="text-blue-100">
-                  Expertise en sécurisation de systèmes d'information. Vos données et celles de vos prospects sont traitées avec le plus haut niveau de protection et dans le respect du RGPD.
+                  Expertise en sécurisation de systèmes d&apos;information. Vos données et celles de vos prospects sont traitées avec le plus haut niveau de protection et dans le respect du RGPD.
                 </p>
               </div>
 
@@ -442,7 +442,7 @@ export default function AboutPage() {
               Prêt à transformer votre prospection B2B ?
             </h2>
             <p className="text-xl text-blue-200 mb-8">
-              Discutons de vos besoins lors d'un rendez-vous de 30 minutes
+              Discutons de vos besoins lors d&apos;un rendez-vous de 30 minutes
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link

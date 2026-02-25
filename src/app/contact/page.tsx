@@ -73,7 +73,7 @@ export default function ContactPage() {
                     <span className="w-7 h-7 bg-green-600 rounded-full flex items-center justify-center text-white text-sm font-bold flex-shrink-0 mt-0.5">1</span>
                     <div>
                       <div className="font-semibold text-gray-900">Analyse de votre marché</div>
-                      <div className="text-sm text-gray-600">J'estime le potentiel de conversations B2B pertinentes dans votre secteur</div>
+                      <div className="text-sm text-gray-600">J&apos;estime le potentiel de conversations B2B pertinentes dans votre secteur</div>
                     </div>
                   </div>
                   <div className="flex items-start gap-3">
@@ -111,7 +111,7 @@ export default function ContactPage() {
                   href="/"
                   className="bg-gradient-to-r from-green-600 to-blue-600 text-white px-8 py-4 rounded-xl font-semibold hover:scale-105 transition-transform"
                 >
-                  ← Retour à l'accueil
+                  ← Retour à l&apos;accueil
                 </Link>
                 <a
                   href="https://wa.me/+33769182076?text=Bonjour, je viens d'envoyer une demande via le site"
@@ -251,7 +251,7 @@ export default function ContactPage() {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div>
                     <label className="block text-sm font-semibold text-gray-700 mb-2">
-                      Secteur d'activité *
+                      Secteur d&apos;activité *
                     </label>
                     <select
                       name="sector"
@@ -273,7 +273,7 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <label className="block text-sm font-semibold text-gray-700 mb-2">
-                      Nombre d'employés
+                      Nombre d&apos;employés
                     </label>
                     <select
                       name="employees"
@@ -351,7 +351,7 @@ export default function ContactPage() {
                 <div className="bg-blue-50 rounded-xl p-4 text-sm text-gray-700 border border-blue-200">
                   <p>
                     🔒 Vos données sont traitées de manière confidentielle et ne seront jamais partagées. 
-                    En soumettant ce formulaire, vous acceptez d'être recontacté par IA Solutions Guadeloupe.
+                    En soumettant ce formulaire, vous acceptez d&apos;être recontacté par IA Solutions Guadeloupe.
                   </p>
                 </div>
 
@@ -524,7 +524,7 @@ export default function ContactPage() {
                 <p className="text-gray-300">Dashboard temps réel avec stats (envoyés, ouverts, réponses). Rapports hebdomadaires. Export leads en CSV quand vous voulez.</p>
               </div>
               <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 border border-white/20">
-                <h4 className="font-semibold text-white mb-3 text-lg">🎯 C'est garanti ?</h4>
+                <h4 className="font-semibold text-white mb-3 text-lg">🎯 C&apos;est garanti ?</h4>
                 <p className="text-gray-300">Je garantis les moyens (campagne optimisée pour atteindre environ 100 messages ouverts ou conversations déclenchées), pas le résultat final. Mais taux de réponse moyen : 7-12% vs 2-3% marché.</p>
               </div>
             </div>

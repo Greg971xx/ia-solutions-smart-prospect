@@ -1,5 +1,4 @@
 import Link from "next/link"
-import Image from "next/image"
 import ChatbotWidget from "@/components/ChatbotWidget"
 import Navigation from "@/components/Navigation"
 
@@ -382,7 +381,7 @@ export default function HomePage() {
                   <div>
                     <h4 className="font-bold text-white mb-2">Méconnaissance du marché</h4>
                     <p className="text-gray-300 text-sm">
-                      Vous ne savez pas combien d'entreprises pourraient être intéressées par vos services
+                      Vous ne savez pas combien d&apos;entreprises pourraient être intéressées par vos services
                     </p>
                   </div>
                 </div>
@@ -394,7 +393,7 @@ export default function HomePage() {
                   <div>
                     <h4 className="font-bold text-white mb-2">Manque de temps</h4>
                     <p className="text-gray-300 text-sm">
-                      Votre équipe est déjà débordée avec les clients particuliers, impossible d'ajouter la prospection B2B
+                      Votre équipe est déjà débordée avec les clients particuliers, impossible d&apos;ajouter la prospection B2B
                     </p>
                   </div>
                 </div>
@@ -636,7 +635,7 @@ export default function HomePage() {
             <div className="mt-16 bg-gradient-to-r from-green-600 to-blue-600 rounded-3xl p-8 md:p-12 shadow-2xl text-white text-center">
               <div className="text-5xl mb-6">💬</div>
               <blockquote className="text-xl md:text-2xl font-medium mb-6 max-w-3xl mx-auto italic">
-                "On pensait être uniquement B2C. Smart Prospect nous a ouvert les yeux sur le potentiel corporate. Aujourd&apos;hui, 25% de notre CA vient d&apos;entreprises qu&apos;on n&apos;aurait jamais contactées sans eux."
+                &quot;On pensait être uniquement B2C. Smart Prospect nous a ouvert les yeux sur le potentiel corporate. Aujourd&apos;hui, 25% de notre CA vient d&apos;entreprises qu&apos;on n&apos;aurait jamais contactées sans eux.&quot;
               </blockquote>
               <div className="text-blue-100">
                 <div className="font-bold text-lg">— Hôtel Jardin Tropical</div>

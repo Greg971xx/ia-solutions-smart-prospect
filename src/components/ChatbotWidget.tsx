@@ -65,6 +65,7 @@ export default function ChatbotWidget() {
         setCurrentStep('companyName')
       }, 300)
     }
+  // eslint-disable-next-line react-hooks/exhaustive-deps -- run only when isOpen becomes true
   }, [isOpen])
 
   const addBotMessage = (text: string, options?: Array<{label: string, value: string, icon?: string}>, delay = 1000) => {

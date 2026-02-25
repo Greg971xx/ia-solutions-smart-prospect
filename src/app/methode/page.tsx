@@ -16,7 +16,7 @@ export default function MethodePage() {
             Comment se déroule une campagne <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-400">Smart Prospect</span>
           </h1>
           <p className="text-xl text-blue-200 max-w-3xl mx-auto">
-            De la signature du contrat jusqu'à la transmission des leads qualifiés : découvrez chaque étape de notre processus, transparent et structuré.
+            De la signature du contrat jusqu&apos;à la transmission des leads qualifiés : découvrez chaque étape de notre processus, transparent et structuré.
           </p>
         </div>
       </div>
@@ -24,10 +24,10 @@ export default function MethodePage() {
       {/* Timeline principale */}
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 pb-20">
         
-        {/* Vue d'ensemble */}
+        {/* Vue d&apos;ensemble */}
         <div className="bg-gradient-to-br from-blue-500/10 to-purple-500/10 backdrop-blur-sm rounded-3xl p-8 md:p-12 border-2 border-blue-400/30 mb-12">
           <h2 className="text-2xl md:text-3xl font-bold text-white mb-6 text-center">
-            🗓️ Vue d'ensemble : 30 jours de A à Z
+            🗓️ Vue d&apos;ensemble : 30 jours de A à Z
           </h2>
           <div className="grid md:grid-cols-4 gap-6 text-center">
             <div className="bg-white/10 rounded-xl p-6 border border-white/20">
@@ -109,7 +109,7 @@ export default function MethodePage() {
                       Envoi de la proposition commerciale
                     </h4>
                     <p className="text-sm text-blue-100">
-                      Vous recevez par email : Document d'offre détaillé, Devis chiffré (3 500€ HT), Contrat de prestation (conditions claires)
+                      Vous recevez par email : Document d&apos;offre détaillé, Devis chiffré (3 500€ HT), Contrat de prestation (conditions claires)
                     </p>
                   </div>
                 </div>
@@ -203,7 +203,7 @@ export default function MethodePage() {
                           <li>• Produit/service C → Segment 3 (ex: paddles → écoles surf)</li>
                         </ul>
                         <p className="mt-2 text-xs italic">
-                          💡 Notre force : un message personnalisé par type d'activité, pas un message générique.
+                          💡 Notre force : un message personnalisé par type d&apos;activité, pas un message générique.
                         </p>
                       </div>
 
@@ -236,11 +236,11 @@ export default function MethodePage() {
                       Notre équipe IA rédige des messages adaptés à chaque segment :
                     </p>
                     <div className="bg-slate-900/50 rounded-lg p-4 border border-slate-600/30 text-xs text-blue-100 font-mono">
-                      <strong className="text-white">Exemple segment "Hôtels 4★" :</strong><br/><br/>
+                      <strong className="text-white">Exemple segment &quot;Hôtels 4★&quot; :</strong><br/><br/>
                       Bonjour M. Dupont,<br/><br/>
                       Grégory DECLERCQ - IA Solutions Guadeloupe, mandaté par Decathlon Guadeloupe.<br/><br/>
                       Votre hôtel 4★ Le Jardin Tropical propose-t-il des activités nautiques à vos clients ?<br/><br/>
-                      Decathlon propose une gamme complète d'équipements B2B (kayaks, paddles, snorkeling) avec tarifs préférentiels pour hôteliers.<br/><br/>
+                      Decathlon propose une gamme complète d&apos;équipements B2B (kayaks, paddles, snorkeling) avec tarifs préférentiels pour hôteliers.<br/><br/>
                       Seriez-vous intéressé par un échange rapide ?
                     </div>
                   </div>
@@ -256,11 +256,11 @@ export default function MethodePage() {
                     <ul className="mt-3 space-y-2 text-sm text-blue-100 ml-6">
                       <li>• Liste complète des cibles (nombre par segment)</li>
                       <li>• Messages rédigés pour chaque segment</li>
-                      <li>• Planning d'envoi (étalement sur 4 semaines)</li>
+                      <li>• Planning d&apos;envoi (étalement sur 4 semaines)</li>
                     </ul>
                     <div className="mt-3 bg-blue-900/30 rounded-lg p-3 border border-blue-500/30">
                       <p className="text-xs text-blue-300">
-                        <strong>Important :</strong> Aucun message n'est envoyé sans votre validation explicite.
+                        <strong>Important :</strong> Aucun message n&apos;est envoyé sans votre validation explicite.
                       </p>
                     </div>
                   </div>
@@ -322,7 +322,7 @@ export default function MethodePage() {
                     <ul className="space-y-2 text-sm text-blue-100 ml-6">
                       <li>• Nombre de messages ouverts / conversations déclenchées</li>
                       <li>• Nombre de messages envoyés (par jour, par segment)</li>
-                      <li>• Taux d'ouverture (Email) / Taux de lecture (WhatsApp)</li>
+                      <li>• Taux d&apos;ouverture (Email) / Taux de lecture (WhatsApp)</li>
                       <li>• Nombre de réponses reçues</li>
                       <li>• Qualification automatique : 🟢 Chaud / 🟡 Tiède / 🔴 Pas intéressé</li>
                     </ul>
@@ -350,14 +350,14 @@ export default function MethodePage() {
                     <div className="space-y-3 text-sm text-blue-100">
                       <div>
                         <strong className="text-white">Étape 1 : Détection réponse positive</strong>
-                        <p className="mt-1">Prospect répond "Oui", "Intéressé", "Dites-m'en plus", etc.</p>
+                        <p className="mt-1">Prospect répond &quot;Oui&quot;, &quot;Intéressé&quot;, &quot;Dites-m&apos;en plus&quot;, etc.</p>
                       </div>
                       <div>
                         <strong className="text-white">Étape 2 : Qualification express (2-3 questions)</strong>
                         <ul className="mt-2 ml-6 space-y-1">
                           <li>• Volume/quantité souhaitée ?</li>
                           <li>• Budget envisagé ?</li>
-                          <li>• Timing d'achat ?</li>
+                          <li>• Timing d&apos;achat ?</li>
                         </ul>
                       </div>
                       <div>
@@ -398,7 +398,7 @@ export default function MethodePage() {
 
                   <div className="bg-orange-900/30 rounded-xl p-4 border border-orange-500/30">
                     <p className="text-orange-300 text-sm">
-                      <strong>⚠️ Règle d'or :</strong> Répondez aux prospects sous 24h maximum. Un prospect qui attend 2-3 jours perd son intérêt. La rapidité de votre réponse impacte directement votre taux de conversion.
+                      <strong>⚠️ Règle d&apos;or :</strong> Répondez aux prospects sous 24h maximum. Un prospect qui attend 2-3 jours perd son intérêt. La rapidité de votre réponse impacte directement votre taux de conversion.
                     </p>
                   </div>
                 </div>
@@ -426,7 +426,7 @@ export default function MethodePage() {
                     </p>
                     <ul className="space-y-1 text-sm text-blue-100 ml-6">
                       <li>• Progression envois (par jour, par segment)</li>
-                      <li>• Taux d'ouverture/lecture</li>
+                      <li>• Taux d&apos;ouverture/lecture</li>
                       <li>• Réponses positives vs négatives vs neutres</li>
                       <li>• Liste leads chauds avec détails</li>
                     </ul>
@@ -438,9 +438,9 @@ export default function MethodePage() {
                       Si nécessaire, nous pouvons :
                     </p>
                     <ul className="space-y-1 text-sm text-blue-100 ml-6">
-                      <li>• Ajuster le wording d'un message (si taux réponse faible)</li>
+                      <li>• Ajuster le wording d&apos;un message (si taux réponse faible)</li>
                       <li>• Ralentir ou accélérer légèrement les envois</li>
-                      <li>• Affiner la qualification (si trop de leads "tièdes")</li>
+                      <li>• Affiner la qualification (si trop de leads &quot;tièdes&quot;)</li>
                     </ul>
                     <div className="mt-3 bg-cyan-900/30 rounded-lg p-3 border border-cyan-500/30">
                       <p className="text-xs text-cyan-300">
@@ -489,7 +489,7 @@ export default function MethodePage() {
                         <strong className="text-white text-sm">📊 Statistiques globales</strong>
                         <ul className="mt-2 space-y-1 text-xs text-blue-100 ml-6">
                           <li>• Nombre total de contacts approchés</li>
-                          <li>• Taux d'ouverture Email / Taux lecture WhatsApp</li>
+                          <li>• Taux d&apos;ouverture Email / Taux lecture WhatsApp</li>
                           <li>• Nombre de réponses (positives/neutres/négatives)</li>
                           <li>• Taux de réponse global</li>
                         </ul>
@@ -538,13 +538,13 @@ export default function MethodePage() {
                     <ul className="space-y-1 text-sm text-blue-100 ml-6 mt-2">
                       <li>• Présenter les résultats en détail</li>
                       <li>• Recueillir votre feedback sur les leads transmis</li>
-                      <li>• Discuter d'une éventuelle nouvelle campagne (si pertinent)</li>
+                      <li>• Discuter d&apos;une éventuelle nouvelle campagne (si pertinent)</li>
                     </ul>
                   </div>
 
                   <div className="bg-indigo-900/30 rounded-xl p-4 border border-indigo-500/30">
                     <p className="text-indigo-300 text-sm">
-                      <strong>🎯 Notre engagement :</strong> Nous mesurons factuellement notre travail. Même si aucune vente n'est conclue (ce qui ne dépend pas de nous), vous aurez des données précises sur votre marché B2B local.
+                      <strong>🎯 Notre engagement :</strong> Nous mesurons factuellement notre travail. Même si aucune vente n&apos;est conclue (ce qui ne dépend pas de nous), vous aurez des données précises sur votre marché B2B local.
                     </p>
                   </div>
                 </div>
@@ -560,7 +560,7 @@ export default function MethodePage() {
             ⚠️ Transparence : Ce que nous NE faisons PAS
           </h2>
           <p className="text-blue-200 text-center mb-8 max-w-3xl mx-auto">
-            Pour éviter tout malentendu, voici ce qui n'est <strong>pas inclus</strong> dans notre prestation :
+            Pour éviter tout malentendu, voici ce qui n&apos;est <strong>pas inclus</strong> dans notre prestation :
           </p>
           
           <div className="grid md:grid-cols-2 gap-6">
@@ -590,7 +590,7 @@ export default function MethodePage() {
                 Nous ne faisons pas de support client
               </h3>
               <p className="text-sm text-blue-100">
-                Une fois le lead transmis, c'est à vous de gérer la relation commerciale. Nous ne relançons pas, ne suivons pas les devis, et ne gérons pas le SAV.
+                Une fois le lead transmis, c&apos;est à vous de gérer la relation commerciale. Nous ne relançons pas, ne suivons pas les devis, et ne gérons pas le SAV.
               </p>
             </div>
 
@@ -600,7 +600,7 @@ export default function MethodePage() {
                 Nous ne mesurons pas le CA généré
               </h3>
               <p className="text-sm text-blue-100">
-                Notre rapport final s'arrête aux <strong>conversations déclenchées</strong>. Le suivi des ventes conclues et du chiffre d'affaires généré ne fait pas partie de notre périmètre.
+                Notre rapport final s&apos;arrête aux <strong>conversations déclenchées</strong>. Le suivi des ventes conclues et du chiffre d&apos;affaires généré ne fait pas partie de notre périmètre.
               </p>
             </div>
           </div>

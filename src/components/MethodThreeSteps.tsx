@@ -2,8 +2,6 @@
 
 // En haut de chaque fichier component
 'use client' // Pour les composants interactifs
-import { useState, useEffect } from 'react'
-import Link from 'next/link'
 
 export default function MethodThreeSteps() {
   const steps = [
