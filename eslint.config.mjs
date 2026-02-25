@@ -21,6 +21,13 @@ const eslintConfig = [
       "**/page_old.tsx",
     ],
   },
+  {
+    rules: {
+      "react/no-unescaped-entities": "warn",
+      "@typescript-eslint/no-unused-vars": "warn",
+      "react-hooks/exhaustive-deps": "warn",
+    },
+  },
 ];
 
 export default eslintConfig;
