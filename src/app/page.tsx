@@ -28,7 +28,7 @@ export default function HomePage() {
               <h1 className="text-5xl md:text-7xl font-bold text-white mb-8 leading-tight">
                 Et si vos meilleurs clients
                 <span className="bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent block mt-2">
-                  n'étaient pas ceux que vous contactez ?
+                  n&apos;étaient pas ceux que vous contactez ?
                 </span>
               </h1>
 
@@ -182,7 +182,7 @@ export default function HomePage() {
                 La solution Smart Prospect
               </h2>
               <p className="text-xl text-blue-200 max-w-3xl mx-auto">
-                Nous utilisons l'intelligence artificielle pour transformer votre prospection B2B
+                Nous utilisons l&apos;intelligence artificielle pour transformer votre prospection B2B
               </p>
             </div>
 
@@ -207,7 +207,7 @@ export default function HomePage() {
                 </div>
                 <h3 className="text-2xl font-bold text-white mb-4">2. Personnaliser</h3>
                 <p className="text-blue-100 mb-4">
-                  L'IA crée un message <strong>UNIQUE</strong> pour chaque prospect
+                  L&apos;IA crée un message <strong>UNIQUE</strong> pour chaque prospect
                 </p>
                 <div className="text-green-400 font-semibold">
                   → Taux de réponse 5-10x supérieur
@@ -406,7 +406,7 @@ export default function HomePage() {
                   <div>
                     <h4 className="font-bold text-white mb-2">Pas de stratégie</h4>
                     <p className="text-gray-300 text-sm">
-                      Vous n'avez ni offre B2B structurée, ni processus de prospection, ni tarifs négociés
+                      Vous n&apos;avez ni offre B2B structurée, ni processus de prospection, ni tarifs négociés
                     </p>
                   </div>
                 </div>
@@ -439,7 +439,7 @@ export default function HomePage() {
                   </div>
                   <h4 className="font-bold text-xl mb-3">Analyse & Adaptation</h4>
                   <p className="text-blue-100 mb-4">
-                    On étudie votre offre B2C actuelle et on l'adapte au marché B2B :
+                    On étudie votre offre B2C actuelle et on l&apos;adapte au marché B2B :
                   </p>
                   <ul className="space-y-2 text-sm text-blue-200">
                     <li>• Création offre B2B spécifique</li>
@@ -461,7 +461,7 @@ export default function HomePage() {
                     <li>• Recherche géolocalisée (Antilles)</li>
                     <li>• Qualification par secteur</li>
                     <li>• Analyse besoins spécifiques</li>
-                    <li>• Sélection d'entreprises réellement pertinentes</li>
+                    <li>• Sélection d&apos;entreprises réellement pertinentes</li>
                   </ul>
                 </div>
 
@@ -553,7 +553,7 @@ export default function HomePage() {
             {/* Ce qu'on fait pour vous */}
             <div className="mt-16 bg-white/10 backdrop-blur-sm rounded-3xl p-8 md:p-12 shadow-xl border border-white/20">
               <h3 className="text-2xl md:text-3xl font-bold text-white mb-8 text-center">
-                💡 Ce qu'on fait pour vous
+                💡 Ce qu&apos;on fait pour vous
               </h3>
 
               <div className="grid gap-6 md:grid-cols-2">
@@ -565,7 +565,7 @@ export default function HomePage() {
                   <div>
                     <h4 className="font-bold text-white mb-2">Analyse offre actuelle</h4>
                     <p className="text-gray-300 text-sm">
-                      On étudie vos services B2C et on identifie ce qui peut s'adapter au B2B (tarifs, volumes, conditions)
+                      On étudie vos services B2C et on identifie ce qui peut s&apos;adapter au B2B (tarifs, volumes, conditions)
                     </p>
                   </div>
                 </div>
@@ -625,7 +625,7 @@ export default function HomePage() {
                   <div>
                     <h4 className="font-bold text-white mb-2">Leads qualifiés livrés</h4>
                     <p className="text-gray-300 text-sm">
-                      Vous recevez 30-80 entreprises intéressées, prêtes à discuter. Vous n'avez qu'à closer !
+                      Vous recevez 30-80 entreprises intéressées, prêtes à discuter. Vous n&apos;avez qu&apos;à closer !
                     </p>
                   </div>
                 </div>
@@ -636,7 +636,7 @@ export default function HomePage() {
             <div className="mt-16 bg-gradient-to-r from-green-600 to-blue-600 rounded-3xl p-8 md:p-12 shadow-2xl text-white text-center">
               <div className="text-5xl mb-6">💬</div>
               <blockquote className="text-xl md:text-2xl font-medium mb-6 max-w-3xl mx-auto italic">
-                "On pensait être uniquement B2C. Smart Prospect nous a ouvert les yeux sur le potentiel corporate. Aujourd'hui, 25% de notre CA vient d'entreprises qu'on n'aurait jamais contactées sans eux."
+                "On pensait être uniquement B2C. Smart Prospect nous a ouvert les yeux sur le potentiel corporate. Aujourd&apos;hui, 25% de notre CA vient d&apos;entreprises qu&apos;on n&apos;aurait jamais contactées sans eux."
               </blockquote>
               <div className="text-blue-100">
                 <div className="font-bold text-lg">— Hôtel Jardin Tropical</div>
@@ -799,7 +799,7 @@ export default function HomePage() {
                     <span className="text-red-400 text-xl">✗</span>
                     <div>
                       <div className="text-white font-semibold">Audience : Inconnue</div>
-                      <div className="text-gray-400 text-sm">Combien l'ont vu ? Mystère...</div>
+                      <div className="text-gray-400 text-sm">Combien l&apos;ont vu ? Mystère...</div>
                     </div>
                   </div>
                   <div className="flex items-start gap-3">
