@@ -18,7 +18,7 @@ export default function AboutPage() {
                 <div className="relative w-64 h-64 mx-auto lg:mx-0 mb-8">
                   <div className="absolute inset-0 rounded-full overflow-hidden shadow-2xl ring-2 ring-white/20">
                     <Image
-                      src="png_cv.png"
+                      src="/png_cv.png"
                       alt="Grégory Declercq"
                       fill
                       className="object-cover"
