@@ -521,7 +521,7 @@ export default function ContactPage() {
               </div>
               <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 border border-white/20">
                 <h4 className="font-semibold text-white mb-3 text-lg">🎯 C&apos;est garanti ?</h4>
-                <p className="text-gray-300">Je garantis les moyens (campagne optimisée pour atteindre environ 100 messages ouverts ou conversations déclenchées), pas le résultat final. Mais taux de réponse moyen : 7-12% vs 2-3% marché.</p>
+                <p className="text-gray-300">Je garantis les moyens (campagne optimisée pour 50-100 décideurs B2B qui ouvrent ou répondent, 30-80 prospects intéressés livrés), pas le résultat final. Taux de réponse moyen : 7-12% vs 2-3% marché.</p>
               </div>
             </div>
           </div>

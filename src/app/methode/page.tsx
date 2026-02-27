@@ -16,7 +16,7 @@ export default function MethodePage() {
             Comment se déroule une campagne <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-400">Smart Prospect</span>
           </h1>
           <p className="text-xl text-blue-200 max-w-3xl mx-auto">
-            De la signature du contrat jusqu&apos;à la transmission des leads qualifiés : découvrez chaque étape de notre processus, transparent et structuré.
+            De la signature du contrat jusqu&apos;à la transmission des prospects intéressés : découvrez chaque étape de notre processus, transparent et structuré.
           </p>
         </div>
       </div>
@@ -349,7 +349,7 @@ export default function MethodePage() {
               <div className="flex-1">
                 <h3 className="text-2xl font-bold text-white mb-3">Jours 8-30 : Qualification et transmission des leads</h3>
                 <p className="text-blue-200 mb-4">
-                  Nous traitons les réponses et vous transmettons uniquement les prospects qualifiés
+                  Nous traitons les réponses et vous transmettons uniquement les prospects intéressés (coordonnées, contexte)
                 </p>
 
                 <div className="space-y-4">
@@ -384,7 +384,7 @@ export default function MethodePage() {
                   </div>
 
                   <div className="bg-white/10 rounded-xl p-5 border border-orange-400/30">
-                    <h4 className="font-bold text-white mb-3">📧 Vous recevez les leads chauds en temps réel</h4>
+                    <h4 className="font-bold text-white mb-3">📧 Vous recevez les prospects intéressés en temps réel</h4>
                     <p className="text-sm text-blue-100 mb-3">
                       Deux options au choix selon votre préférence :
                     </p>
@@ -434,9 +434,9 @@ export default function MethodePage() {
                     </p>
                     <ul className="space-y-1 text-sm text-blue-100 ml-6">
                       <li>• Réponses des prospects accessibles dès réception</li>
-                      <li>• Liste des leads chauds avec détails (option notification email)</li>
+                      <li>• Liste des prospects intéressés avec détails (option notification email)</li>
                       <li>• Rapports hebdomadaires de synthèse</li>
-                      <li>• Export des leads qualifiés en CSV à la demande</li>
+                      <li>• Export des prospects intéressés en CSV à la demande</li>
                     </ul>
                   </div>
 
@@ -514,7 +514,7 @@ export default function MethodePage() {
                       </div>
 
                       <div>
-                        <strong className="text-white text-sm">🔥 Leads qualifiés transmis</strong>
+                        <strong className="text-white text-sm">🔥 Prospects intéressés transmis</strong>
                         <ul className="mt-2 space-y-1 text-xs text-blue-100 ml-6">
                           <li>• Liste complète avec : nom, entreprise, contact, budget, timing</li>
                           <li>• Répartition géographique</li>
