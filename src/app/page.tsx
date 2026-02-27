@@ -232,7 +232,7 @@ export default function HomePage() {
                 </div>
                 <h3 className="text-2xl font-bold text-white mb-4">4. Mesurer</h3>
                 <p className="text-blue-100 mb-4">
-                  Dashboard ROI temps réel, boîte de réception WhatsApp : qui ouvre, qui clique, qui répond
+                  Retours des prospects consultables en temps réel au fur et à mesure des réponses
                 </p>
                 <div className="text-green-400 font-semibold">
                   → Suivi des conversions et transmission des leads qualifiés
@@ -698,7 +698,7 @@ export default function HomePage() {
                   </div>
                   <div className="flex items-start gap-3">
                     <span className="text-green-600 text-xl flex-shrink-0">✓</span>
-                    <span className="text-gray-700">Dashboard : qui ouvre, qui répond, qui est intéressé</span>
+                    <span className="text-gray-700">Retours des prospects consultables en temps réel au fur et à mesure des réponses</span>
                   </div>
                   <div className="flex items-start gap-3">
                     <span className="text-green-600 text-xl flex-shrink-0">✓</span>

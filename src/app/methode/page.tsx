@@ -109,7 +109,7 @@ export default function MethodePage() {
                       Envoi de la proposition commerciale
                     </h4>
                     <p className="text-sm text-blue-100">
-                      Vous recevez par email : Document d&apos;offre détaillé, Devis chiffré (3 500€ HT), Contrat de prestation (conditions claires)
+                      Vous recevez par email : Document d&apos;offre détaillé, Devis chiffré (2 500€ HT), Contrat de prestation (conditions claires)
                     </p>
                   </div>
                 </div>
@@ -143,7 +143,7 @@ export default function MethodePage() {
                       <div className="flex items-start gap-3">
                         <span className="text-green-400 font-bold">✓</span>
                         <div>
-                          <strong className="text-white">Paiement à la commande (3 500€ HT)</strong>
+                          <strong className="text-white">Paiement à la commande (2 500€ HT)</strong>
                           <p className="mt-1">Virement bancaire ou paiement en ligne sécurisé.</p>
                         </div>
                       </div>
@@ -223,6 +223,15 @@ export default function MethodePage() {
                           <li>• Numéro WhatsApp pour redirection (si applicable)</li>
                           <li>• Personne(s) en charge des réponses prospects</li>
                         </ul>
+                        <div className="mt-3 bg-blue-900/30 rounded-lg p-3 border border-blue-500/30">
+                          <p className="text-xs text-blue-300 mb-2">
+                            <strong>Recommandations :</strong>
+                          </p>
+                          <ul className="text-xs text-blue-200 space-y-1 ml-4">
+                            <li>• <strong>Email :</strong> Si vous êtes propriétaire de votre domaine, il est recommandé de configurer un sous-domaine dédié pour les mails (ex. contact@prospection.votresociete.com). Cela améliore la délivrabilité et la crédibilité.</li>
+                            <li>• <strong>WhatsApp :</strong> Une ligne dédiée est conseillée pour isoler la prospection de vos échanges personnels. Un contrat mobile à 2,50 €/mois suffit largement.</li>
+                          </ul>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -315,16 +324,15 @@ export default function MethodePage() {
                   </div>
 
                   <div className="bg-white/10 rounded-xl p-5 border border-purple-400/30">
-                    <h4 className="font-bold text-white mb-3">🔔 Vous êtes informé en temps réel</h4>
+                    <h4 className="font-bold text-white mb-3">🔔 Retours des prospects consultables en temps réel</h4>
                     <p className="text-sm text-blue-100 mb-3">
-                      Dès le lancement, vous avez accès à votre <strong>dashboard personnalisé</strong> :
+                      Dès le lancement, les <strong>retours des prospects sont consultables en temps réel</strong> au fur et à mesure des réponses :
                     </p>
                     <ul className="space-y-2 text-sm text-blue-100 ml-6">
-                      <li>• Nombre de messages ouverts / conversations déclenchées</li>
-                      <li>• Nombre de messages envoyés (par jour, par segment)</li>
-                      <li>• Taux d&apos;ouverture (Email) / Taux de lecture (WhatsApp)</li>
-                      <li>• Nombre de réponses reçues</li>
-                      <li>• Qualification automatique : 🟢 Chaud / 🟡 Tiède / 🔴 Pas intéressé</li>
+                      <li>• Réponses reçues accessibles dès qu&apos;elles arrivent</li>
+                      <li>• Qualification des prospects : 🟢 Chaud / 🟡 Tiède / 🔴 Pas intéressé</li>
+                      <li>• Rapports hebdomadaires de suivi</li>
+                      <li>• Export des leads en CSV à tout moment</li>
                     </ul>
                   </div>
                 </div>
@@ -420,15 +428,15 @@ export default function MethodePage() {
 
                 <div className="space-y-4">
                   <div className="bg-white/10 rounded-xl p-5 border border-cyan-400/30">
-                    <h4 className="font-bold text-white mb-3">📊 Dashboard temps réel</h4>
+                    <h4 className="font-bold text-white mb-3">📊 Suivi des retours en temps réel</h4>
                     <p className="text-sm text-blue-100 mb-3">
-                      Vous pouvez consulter à tout moment :
+                      Les retours des prospects sont consultables en temps réel au fur et à mesure des réponses. Vous recevez notamment :
                     </p>
                     <ul className="space-y-1 text-sm text-blue-100 ml-6">
-                      <li>• Progression envois (par jour, par segment)</li>
-                      <li>• Taux d&apos;ouverture/lecture</li>
-                      <li>• Réponses positives vs négatives vs neutres</li>
-                      <li>• Liste leads chauds avec détails</li>
+                      <li>• Réponses des prospects accessibles dès réception</li>
+                      <li>• Liste des leads chauds avec détails (option notification email)</li>
+                      <li>• Rapports hebdomadaires de synthèse</li>
+                      <li>• Export des leads qualifiés en CSV à la demande</li>
                     </ul>
                   </div>
 

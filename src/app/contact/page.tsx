@@ -521,7 +521,7 @@ export default function ContactPage() {
               </div>
               <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 border border-white/20">
                 <h4 className="font-semibold text-white mb-3 text-lg">📊 Comment je suis les résultats ?</h4>
-                <p className="text-gray-300">Dashboard temps réel avec stats (envoyés, ouverts, réponses). Rapports hebdomadaires. Export leads en CSV quand vous voulez.</p>
+                <p className="text-gray-300">Retours des prospects consultables en temps réel au fur et à mesure des réponses. Rapports hebdomadaires. Export leads en CSV quand vous voulez.</p>
               </div>
               <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 border border-white/20">
                 <h4 className="font-semibold text-white mb-3 text-lg">🎯 C&apos;est garanti ?</h4>

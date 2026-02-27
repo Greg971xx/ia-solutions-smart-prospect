@@ -262,7 +262,7 @@ export default function Footer() {
             <div className="bg-white/5 backdrop-blur-sm rounded-2xl p-4 border border-white/10">
               <div className="text-3xl mb-2">📊</div>
               <div className="font-semibold text-white text-sm">ROI mesurable</div>
-              <div className="text-gray-400 text-xs mt-1">Dashboard temps réel</div>
+              <div className="text-gray-400 text-xs mt-1">Retours en temps réel</div>
             </div>
             <div className="bg-white/5 backdrop-blur-sm rounded-2xl p-4 border border-white/10">
               <div className="text-3xl mb-2">🎯</div>
