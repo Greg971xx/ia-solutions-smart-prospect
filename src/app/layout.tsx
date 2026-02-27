@@ -6,6 +6,7 @@ import './globals.css'
 import Footer from '@/components/Footer'
 import CookieConsent from '@/components/CookieConsent'
 import ComingSoonBanner from '@/components/ComingSoonBanner'
+import { Analytics } from '@vercel/analytics/react'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -17,8 +18,8 @@ export const metadata: Metadata = {
   // ✅ Corrige le warning
   metadataBase: new URL(siteUrl),
 
-  title: 'IA Intégrateur Guadeloupe | Automatisation & Formation IA Entreprises',
-  description: 'Expert IA en Guadeloupe ✨ Automatisez vos processus, formez vos équipes et boostez votre productivité avec les solutions IA 2025. Diagnostic gratuit 30min.',
+  title: 'Smart Prospect | Prospection B2B IA en Guadeloupe',
+  description: 'Smart Prospect : campagne de prospection B2B par IA. En 30 jours, 50–100 décideurs B2B contactés et 30–80 prospects intéressés livrés. Intégration de services IA pour aller plus loin.',
   keywords: [
     'IA Guadeloupe',
     'intelligence artificielle entreprise',
@@ -64,8 +65,8 @@ export const metadata: Metadata = {
     locale: 'fr_FR',
     // 🔁 Laisse en relatif : sera résolu avec metadataBase → https://.../
     url: '/',
-    title: 'IA Intégrateur Guadeloupe | Solutions IA pour Entreprises',
-    description: 'Transformez votre entreprise avec l\'IA ! Automatisation, formation équipes, chatbots intelligents. Expert basé en Guadeloupe 🏝️',
+    title: 'Smart Prospect | Prospection B2B IA en Guadeloupe',
+    description: 'Smart Prospect : prospection B2B par IA depuis la Guadeloupe. En 30 jours, 50–100 décideurs B2B contactés et 30–80 prospects intéressés livrés. Intégration de services IA sur-mesure.',
     siteName: 'IA Intégrateur Guadeloupe',
     images: [
       {
@@ -79,8 +80,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'IA Intégrateur Guadeloupe | Automatisation Entreprises',
-    description: 'Automatisez vos processus avec l\'IA ! Formations, chatbots, solutions sur-mesure en Guadeloupe 🚀',
+    title: 'Smart Prospect | Prospection B2B IA',
+    description: 'Campagne Smart Prospect : 50–100 décideurs B2B contactés, 30–80 prospects intéressés livrés. Intégration de services IA possible en complément.',
     // 🔁 relatif → https://.../twitter-image.jpg
     images: ['/twitter-image.jpg'],
   },
@@ -241,6 +242,7 @@ export default function RootLayout({
           <Footer />
         </div>
         <CookieConsent />
+        <Analytics />
 
         {/* Cookie Display Script */}
         <script
