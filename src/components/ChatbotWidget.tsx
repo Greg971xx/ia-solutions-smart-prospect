@@ -525,50 +525,51 @@ export default function ChatbotWidget() {
       {!isOpen && (
         <button
           onClick={() => setIsOpen(true)}
-          className="fixed bottom-6 right-6 z-50 bg-gradient-to-r from-green-600 to-blue-600 text-white px-6 py-4 rounded-2xl shadow-2xl hover:scale-105 transition-all duration-300 group"
+          className="fixed bottom-4 right-4 sm:bottom-6 sm:right-6 z-50 bg-gradient-to-r from-green-600 to-blue-600 text-white px-4 py-3 sm:px-6 sm:py-4 rounded-2xl shadow-2xl hover:scale-105 transition-all duration-300 group"
         >
-          <div className="flex items-center gap-3">
-            <span className="text-3xl animate-bounce">🚀</span>
+          <div className="flex items-center gap-2 sm:gap-3">
+            <span className="text-2xl sm:text-3xl animate-bounce">🚀</span>
             <div className="text-left">
-              <div className="font-bold text-lg">Smart Prospect</div>
-              <div className="text-xs opacity-90">Configurez votre campagne</div>
+              <div className="font-bold text-sm sm:text-lg">Smart Prospect</div>
+              <div className="text-xs opacity-90 hidden sm:block">Configurez votre campagne</div>
             </div>
           </div>
         </button>
       )}
 
-      {/* Chat Window */}
+      {/* Chat Window - responsive: plein écran mobile, fenêtre desktop */}
       {isOpen && (
-        <div className="fixed bottom-6 right-6 z-50 w-[420px] h-[650px] bg-white rounded-3xl shadow-2xl border-2 border-blue-200 overflow-hidden flex flex-col">
+        <div className="fixed inset-4 sm:inset-auto sm:bottom-6 sm:right-6 sm:w-[420px] sm:h-[650px] z-50 w-[calc(100vw-2rem)] h-[calc(100vh-2rem)] sm:max-h-[85vh] bg-white rounded-2xl sm:rounded-3xl shadow-2xl border-2 border-blue-200 overflow-hidden flex flex-col">
           
-          {/* Header */}
-          <div className="bg-gradient-to-r from-green-600 to-blue-600 text-white p-4">
-            <div className="flex items-center justify-between mb-2">
-              <div className="flex items-center gap-3">
-                <div className="w-3 h-3 bg-green-400 rounded-full animate-pulse"></div>
-                <div>
-                  <h3 className="font-bold text-lg">Smart Prospect Assistant</h3>
-                  <p className="text-xs opacity-90">Configuration campagne B2B</p>
+          {/* Header - compact sur mobile */}
+          <div className="bg-gradient-to-r from-green-600 to-blue-600 text-white p-3 sm:p-4 flex-shrink-0">
+            <div className="flex items-center justify-between gap-2">
+              <div className="flex items-center gap-2 sm:gap-3 min-w-0">
+                <div className="w-2.5 h-2.5 sm:w-3 sm:h-3 bg-green-400 rounded-full animate-pulse flex-shrink-0"></div>
+                <div className="min-w-0">
+                  <h3 className="font-bold text-base sm:text-lg truncate">Smart Prospect</h3>
+                  <p className="text-xs opacity-90 hidden sm:block">Configuration campagne B2B</p>
                 </div>
               </div>
               <button
                 onClick={() => setIsOpen(false)}
-                className="text-white hover:bg-white/20 rounded-full p-2 transition-colors"
+                className="flex-shrink-0 text-white hover:bg-white/20 rounded-full p-2 transition-colors text-lg leading-none"
+                aria-label="Fermer le chatbot"
               >
                 ✕
               </button>
             </div>
             
-            {/* Progress Bar */}
+            {/* Progress Bar - compact sur mobile */}
             {completionPercentage > 0 && completionPercentage < 100 && (
-              <div className="mt-3">
+              <div className="mt-2 sm:mt-3">
                 <div className="flex justify-between text-xs mb-1">
                   <span>Progression</span>
                   <span>{completionPercentage}%</span>
                 </div>
-                <div className="w-full bg-white/20 rounded-full h-2">
+                <div className="w-full bg-white/20 rounded-full h-1.5 sm:h-2">
                   <div 
-                    className="bg-white h-2 rounded-full transition-all duration-500"
+                    className="bg-white h-1.5 sm:h-2 rounded-full transition-all duration-500"
                     style={{ width: `${completionPercentage}%` }}
                   />
                 </div>
@@ -576,30 +577,30 @@ export default function ChatbotWidget() {
             )}
           </div>
 
-          {/* Messages */}
-          <div className="flex-1 overflow-y-auto p-4 space-y-4 bg-gradient-to-b from-blue-50 to-white">
+          {/* Messages - zone scrollable, police lisible sur mobile */}
+          <div className="flex-1 overflow-y-auto overscroll-contain p-3 sm:p-4 space-y-3 sm:space-y-4 bg-gradient-to-b from-blue-50 to-white min-h-0">
             {messages.map((message) => (
               <div
                 key={message.id}
                 className={`flex ${message.isUser ? 'justify-end' : 'justify-start'}`}
               >
                 <div
-                  className={`max-w-[85%] p-4 rounded-2xl shadow-md ${
+                  className={`max-w-[92%] sm:max-w-[85%] p-3 sm:p-4 rounded-2xl shadow-md ${
                     message.isUser
                       ? 'bg-gradient-to-r from-blue-600 to-blue-500 text-white'
                       : 'bg-white text-gray-800 border border-gray-200'
                   }`}
                 >
-                  <p className="whitespace-pre-line text-sm leading-relaxed">{message.text}</p>
+                  <p className="whitespace-pre-line text-base sm:text-sm leading-relaxed">{message.text}</p>
                   
-                  {/* Options buttons */}
+                  {/* Options buttons - lisibles sur mobile */}
                   {message.options && !message.isUser && (
-                    <div className="mt-4 space-y-2">
+                    <div className="mt-3 sm:mt-4 space-y-2">
                       {message.options.map((option, index) => (
                         <button
                           key={index}
                           onClick={() => handleOptionClick(option)}
-                          className="block w-full text-left px-4 py-3 bg-gradient-to-r from-blue-50 to-blue-100 border-2 border-blue-200 rounded-xl hover:from-blue-100 hover:to-blue-200 hover:border-blue-400 transition-all text-sm font-medium text-gray-800 hover:scale-[1.02]"
+                          className="block w-full text-left px-3 py-2.5 sm:px-4 sm:py-3 bg-gradient-to-r from-blue-50 to-blue-100 border-2 border-blue-200 rounded-xl hover:from-blue-100 hover:to-blue-200 hover:border-blue-400 transition-all text-sm sm:text-sm font-medium text-gray-800 hover:scale-[1.01] active:scale-[0.99]"
                         >
                           {option.label}
                         </button>
@@ -626,21 +627,21 @@ export default function ChatbotWidget() {
             <div ref={messagesEndRef} />
           </div>
 
-          {/* Input Area */}
+          {/* Input Area - compact sur mobile */}
           {currentStep !== 'completed' && currentStep !== 'welcome' && !messages[messages.length - 1]?.options && (
-            <div className="p-4 border-t border-gray-200 bg-white">
+            <div className="p-3 sm:p-4 border-t border-gray-200 bg-white flex-shrink-0">
               <form onSubmit={handleTextSubmit} className="flex gap-2">
                 <input
                   type="text"
                   value={textInput}
                   onChange={(e) => setTextInput(e.target.value)}
                   placeholder="Tapez votre réponse..."
-                  className="flex-1 px-4 py-3 border-2 border-blue-200 rounded-xl focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all text-gray-900 bg-white placeholder:text-gray-400"
+                  className="flex-1 min-w-0 px-3 py-2.5 sm:px-4 sm:py-3 border-2 border-blue-200 rounded-xl focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all text-base sm:text-sm text-gray-900 bg-white placeholder:text-gray-400"
                   autoFocus
                 />
                 <button
                   type="submit"
-                  className="bg-gradient-to-r from-green-500 to-blue-500 text-white px-6 py-3 rounded-xl font-semibold hover:scale-105 transition-transform shadow-lg"
+                  className="flex-shrink-0 bg-gradient-to-r from-green-500 to-blue-500 text-white px-4 sm:px-6 py-2.5 sm:py-3 rounded-xl font-semibold hover:scale-105 active:scale-95 transition-transform shadow-lg"
                 >
                   ➤
                 </button>
@@ -648,9 +649,9 @@ export default function ChatbotWidget() {
             </div>
           )}
 
-          {/* Footer Info */}
+          {/* Footer Info - masqué sur mobile (économise de l'espace) */}
           {currentStep === 'welcome' && (
-            <div className="p-4 border-t border-gray-200 bg-gradient-to-r from-green-50 to-blue-50">
+            <div className="hidden sm:block p-4 border-t border-gray-200 bg-gradient-to-r from-green-50 to-blue-50 flex-shrink-0">
               <div className="text-center text-sm text-gray-600">
                 <p className="font-semibold mb-2">🔒 Vos données sont confidentielles</p>
                 <p className="text-xs">Brief généré en temps réel • Proposition immédiate</p>
