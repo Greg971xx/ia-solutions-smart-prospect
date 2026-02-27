@@ -21,9 +21,9 @@ export default function AboutPage() {
                       src="/about/Photo_cv.jpg"
                       alt="Grégory Declercq"
                       fill
-                      className="object-cover"
+                      className="object-cover object-top"
                       priority
-                      sizes="256px"
+                      sizes="320px"
                     />
                   </div>
                   <div className="absolute -bottom-2 -right-2 bg-gradient-to-r from-blue-600 to-purple-600 rounded-full p-4 shadow-xl">
