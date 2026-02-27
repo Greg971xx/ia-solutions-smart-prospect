@@ -70,7 +70,7 @@ export default function AboutPage() {
                     </svg>
                   </a>
                   <a
-                    href="https://wa.me/590690711464"
+                    href="https://wa.me/33769182076"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="p-3 bg-green-600/20 hover:bg-green-600/30 rounded-xl transition-all duration-300 backdrop-blur-sm border border-green-500/30"
