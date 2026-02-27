@@ -4,7 +4,8 @@ import { Inter } from 'next/font/google'
 import './globals.css'
 
 import Footer from '@/components/Footer'
-import CookieConsent from '@/components/CookieConsent';
+import CookieConsent from '@/components/CookieConsent'
+import ComingSoonBanner from '@/components/ComingSoonBanner'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -231,6 +232,7 @@ export default function RootLayout({
       </head>
 
       <body className={`${inter.className} antialiased`}>
+        <ComingSoonBanner />
         <div className="flex flex-col min-h-screen">
           
           <main className="flex-grow">
