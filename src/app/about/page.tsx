@@ -46,7 +46,7 @@ export default function AboutPage() {
                     🤖 Expert IA
                   </span>
                   <span className="px-4 py-2 bg-green-500/20 backdrop-blur-sm rounded-full text-green-300 text-sm border border-green-400/30">
-                    💼 B2B Specialist
+                    💼 B2B Specialiste
                   </span>
                 </div>
 
@@ -124,11 +124,11 @@ export default function AboutPage() {
                   Sous-officier Systèmes d&apos;Information
                 </h4>
                 <p className="text-blue-100 mb-4">
-                  20 ans dans l&apos;armée française, spécialisé dans la mise en œuvre et la sécurisation de systèmes d&apos;information de défense.
+                  17 ans dans l&apos;armée française, spécialisé dans la mise en œuvre et la sécurisation de systèmes d&apos;information de défense.
                 </p>
                 <div className="bg-white/5 rounded-xl p-4 border border-white/10">
                   <p className="text-xs text-blue-200">
-                    <strong className="text-white">Compétences clés :</strong> Administration réseaux complexes, gestion de projets critiques, management d&apos;équipes techniques
+                    <strong className="text-white">Compétences clés :</strong> Administration réseaux complexes, gestion de projets, management d&apos;équipes techniques
                   </p>
                 </div>
               </div>
@@ -137,7 +137,7 @@ export default function AboutPage() {
               <div className="bg-gradient-to-br from-blue-800/30 to-indigo-900/30 backdrop-blur-sm rounded-3xl p-8 border-2 border-blue-500/30">
                 <div className="text-5xl mb-4">🏝️</div>
                 <h3 className="text-2xl font-bold text-white mb-3">
-                  2017-2023
+                  2015-2023
                 </h3>
                 <h4 className="text-lg font-semibold text-blue-300 mb-4">
                   Reconversion & Découverte
@@ -237,7 +237,7 @@ export default function AboutPage() {
                           Recherche automatisée
                         </h4>
                         <p className="text-sm text-blue-100">
-                          Google Places API + scraping éthique pour identifier des centaines de prospects qualifiés en quelques minutes
+                          Google API + scraping éthique pour identifier des centaines de prospects qualifiés en quelques minutes
                         </p>
                       </div>
                       <div className="bg-white/5 rounded-xl p-5 border border-blue-400/30">
@@ -407,7 +407,7 @@ export default function AboutPage() {
                   Rigueur opérationnelle
                 </h3>
                 <p className="text-blue-100">
-                  20 ans d&apos;expérience militaire où la précision, la fiabilité et le respect des délais sont des impératifs absolus. Cette rigueur se retrouve dans chaque campagne Smart Prospect.
+                  17 ans d&apos;expérience militaire où la précision, la fiabilité et le respect des délais sont des impératifs absolus. Cette rigueur se retrouve dans chaque campagne Smart Prospect.
                 </p>
               </div>
 
