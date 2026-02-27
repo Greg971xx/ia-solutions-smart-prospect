@@ -15,7 +15,7 @@ export default function AboutPage() {
               
               {/* Portrait & Intro */}
               <div className="text-center lg:text-left">
-                <div className="relative w-80 h-96 mx-auto lg:mx-0 mb-8">
+                <div className="relative w-96 h-96 mx-auto lg:mx-0 mb-8">
                   <div className="absolute inset-0 rounded-full overflow-hidden shadow-2xl ring-2 ring-white/20">
                     <Image
                       src="/about/Photo_cv.jpg"
