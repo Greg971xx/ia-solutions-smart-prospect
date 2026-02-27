@@ -143,7 +143,7 @@ export default function MethodePage() {
                       <div className="flex items-start gap-3">
                         <span className="text-green-400 font-bold">✓</span>
                         <div>
-                          <strong className="text-white">Paiement à la commande (2 500€ HT)</strong>
+                          <strong className="text-white">Acompte 50% à la commande, solde 50% au lancement (2 500€ HT)</strong>
                           <p className="mt-1">Virement bancaire ou paiement en ligne sécurisé.</p>
                         </div>
                       </div>
@@ -640,7 +640,7 @@ export default function MethodePage() {
                 Demander une démo gratuite
               </Link>
               <a 
-                href="https://wa.me/590690711464?text=Bonjour,%20je%20souhaite%20en%20savoir%20plus%20sur%20Smart%20Prospect"
+                href="https://wa.me/33769182076?text=Bonjour,%20je%20souhaite%20en%20savoir%20plus%20sur%20Smart%20Prospect"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-block px-8 py-4 bg-green-600 text-white font-bold rounded-xl hover:bg-green-700 transition-all shadow-lg hover:shadow-xl"

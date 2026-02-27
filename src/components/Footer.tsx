@@ -18,10 +18,8 @@ export default function Footer() {
   ]
 
   const resources = [
-    { name: 'Cas clients', href: '/#cas-clients' },
     { name: 'Méthode complète', href: '/methode' },
     { name: 'Comparaison vs Agences', href: '/#comparaison' },
-    { name: 'FAQ', href: '/#faq' },
   ]
 
   const socialLinks = [

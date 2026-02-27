@@ -452,7 +452,7 @@ export default function AboutPage() {
                 Demander une démo gratuite
               </Link>
               <a
-                href="https://wa.me/590690711464?text=Bonjour,%20je%20souhaite%20en%20savoir%20plus%20sur%20Smart%20Prospect"
+                href="https://wa.me/33769182076?text=Bonjour,%20je%20souhaite%20en%20savoir%20plus%20sur%20Smart%20Prospect"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-block px-8 py-4 bg-green-600 text-white font-bold rounded-xl hover:bg-green-700 transition-all duration-300 shadow-xl"

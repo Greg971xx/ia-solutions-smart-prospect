@@ -78,7 +78,7 @@ export default function HomePage() {
                 </Link>
                 
                 <a
-                  href="https://wa.me/590690711464"
+                  href="https://wa.me/33769182076"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="group border-2 border-white/30 bg-white/10 backdrop-blur-sm text-white px-10 py-5 rounded-xl font-bold text-lg hover:bg-white/20 transition-all duration-300"
@@ -940,7 +940,7 @@ export default function HomePage() {
               </Link>
 
               <a
-                href="https://wa.me/590690711464"
+                href="https://wa.me/33769182076"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-block border-2 border-white text-white px-12 py-6 rounded-2xl font-bold text-xl hover:bg-white/10 transition-all duration-300"

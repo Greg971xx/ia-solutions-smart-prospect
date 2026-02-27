@@ -99,10 +99,6 @@ export default function ContactPage() {
                   <Link href="/methode" className="text-blue-600 font-semibold hover:underline">
                     méthode complète
                   </Link>
-                  {' '}ou explorez nos{' '}
-                  <Link href="/" className="text-blue-600 font-semibold hover:underline">
-                    cas clients
-                  </Link>
                 </p>
               </div>
 
