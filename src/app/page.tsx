@@ -31,6 +31,10 @@ export default function HomePage() {
                 </span>
               </h1>
 
+              <p className="text-lg md:text-xl text-blue-200 mb-4 max-w-3xl mx-auto leading-relaxed">
+                Smart Prospect est une solution de prospection B2B par IA basée en Guadeloupe, au service des entreprises en Guadeloupe, Martinique et Guyane.
+              </p>
+
               <p className="text-xl md:text-2xl text-gray-300 mb-6 max-w-3xl mx-auto leading-relaxed">
                 <strong className="text-white">Vous vendez aux particuliers ?</strong> Des entreprises, clubs et collectivités ont besoin de vous. <strong className="text-white">Vous faites déjà du B2B ?</strong> Vous ne touchez qu&apos;une partie de votre marché. <strong className="text-white">Développé pour un leader mondial du retail</strong>, Smart Prospect active un levier trop souvent négligé : <strong className="text-blue-400">les clients corporate</strong>.
               </p>

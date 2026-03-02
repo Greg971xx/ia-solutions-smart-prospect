@@ -12,29 +12,29 @@ const inter = Inter({ subsets: ['latin'] })
 
 // ✅ URL de base pour construire les liens absolus OG/Twitter
 //    Mets NEXT_PUBLIC_SITE_URL en prod (ex: https://ia-solutions-guadeloupe.fr)
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? 'http://localhost:3000';
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.ia-solutions-guadeloupe.fr';
 
 export const metadata: Metadata = {
-  // ✅ Corrige le warning
   metadataBase: new URL(siteUrl),
 
   title: 'Smart Prospect | Prospection B2B IA en Guadeloupe',
-  description: 'Smart Prospect : campagne de prospection B2B par IA. En 30 jours, 50–100 décideurs B2B contactés et 30–80 prospects intéressés livrés. Intégration de services IA pour aller plus loin.',
+  description:
+    'Smart Prospect est une solution de prospection B2B par IA basée en Guadeloupe. En 30 jours, 50 à 100 décideurs B2B sont contactés et 30 à 80 prospects intéressés vous sont livrés en Guadeloupe, Martinique et Guyane.',
   keywords: [
-    'IA Guadeloupe',
-    'intelligence artificielle entreprise',
-    'automatisation processus',
-    'formation IA',
-    'chatbot',
-    'consultant IA Guadeloupe',
-    'digital transformation',
-    'productivité entreprise',
-    'Antilles automation',
-    'Caribbean AI expert'
+    'prospection B2B Guadeloupe',
+    'prospection B2B Antilles',
+    'prospection IA Guadeloupe',
+    'Smart Prospect',
+    'IA Solutions Guadeloupe',
+    'prospection entreprises Guadeloupe',
+    'prospection automatisée B2B',
+    'génération de prospects B2B Guadeloupe',
+    'prospection B2B Martinique',
+    'prospection B2B Guyane',
   ],
-  authors: [{ name: 'Expert IA Guadeloupe' }],
-  creator: 'IA Intégrateur Guadeloupe',
-  publisher: 'IA Intégrateur Guadeloupe',
+  authors: [{ name: 'IA Solutions Guadeloupe' }],
+  creator: 'IA Solutions Guadeloupe',
+  publisher: 'IA Solutions Guadeloupe',
   icons: {
     icon: [
       { url: '/favicon.ico', sizes: 'any' },
@@ -63,11 +63,11 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'fr_FR',
-    // 🔁 Laisse en relatif : sera résolu avec metadataBase → https://.../
     url: '/',
     title: 'Smart Prospect | Prospection B2B IA en Guadeloupe',
-    description: 'Smart Prospect : prospection B2B par IA depuis la Guadeloupe. En 30 jours, 50–100 décideurs B2B contactés et 30–80 prospects intéressés livrés. Intégration de services IA sur-mesure.',
-    siteName: 'IA Intégrateur Guadeloupe',
+    description:
+      'Campagnes de prospection B2B ultra-personnalisées par IA : 50 à 100 décideurs touchés et 30 à 80 prospects intéressés livrés pour les entreprises en Guadeloupe, Martinique et Guyane.',
+    siteName: 'IA Solutions Guadeloupe - Smart Prospect',
     images: [
       {
         // 🔁 relatif → https://.../og-image.jpg
@@ -80,13 +80,12 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Smart Prospect | Prospection B2B IA',
-    description: 'Campagne Smart Prospect : 50–100 décideurs B2B contactés, 30–80 prospects intéressés livrés. Intégration de services IA possible en complément.',
-    // 🔁 relatif → https://.../twitter-image.jpg
+    title: 'Smart Prospect | Prospection B2B IA en Guadeloupe',
+    description:
+      'Prospection B2B par IA pour les entreprises en Guadeloupe, Martinique et Guyane. 50 à 100 décideurs B2B contactés, 30 à 80 prospects intéressés livrés en 30 jours.',
     images: ['/twitter-image.jpg'],
   },
   alternates: {
-    // 🔁 canonical relatif → résolu via metadataBase
     canonical: '/',
   },
   other: {
@@ -106,50 +105,42 @@ export default function RootLayout({
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
 
-        {/* Local Business Schema */}
+        {/* Local Business Schema - IA Solutions Guadeloupe / Smart Prospect */}
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "LocalBusiness",
-              "name": "IA Intégrateur Guadeloupe",
-              "description": "Expert en intégration d'intelligence artificielle pour entreprises en Guadeloupe. Automatisation, formation IA, chatbots intelligents.",
-              "url": "https://ia-solutions-guadeloupe.fr",
+              "name": "IA Solutions Guadeloupe - Smart Prospect",
+              "description":
+                "Smart Prospect est une solution de prospection B2B automatisée par IA pour les entreprises en Guadeloupe, Martinique et Guyane.",
+              "url": "https://www.ia-solutions-guadeloupe.fr",
               "telephone": "+33 7 69 18 20 76",
-              "email": "contact@ia-guadeloupe.com",
+              "email": "gregory@ia-solutions-guadeloupe.fr",
               "address": {
                 "@type": "PostalAddress",
                 "addressRegion": "Guadeloupe",
                 "addressCountry": "FR"
               },
+              "areaServed": [
+                "Guadeloupe",
+                "Martinique",
+                "Guyane",
+                "Antilles françaises"
+              ],
               "geo": {
                 "@type": "GeoCoordinates",
                 "latitude": 16.2650,
                 "longitude": -61.5510
               },
-              "openingHours": "Mo-Fr 08:00-18:00",
-              "serviceArea": {
-                "@type": "GeoCircle",
-                "geoMidpoint": {
-                  "@type": "GeoCoordinates",
-                  "latitude": 16.2650,
-                  "longitude": -61.5510
-                },
-                "geoRadius": "50000"
-              },
-              "services": [
-                "Formation Intelligence Artificielle",
-                "Automatisation Processus Entreprise",
-                "Chatbots Intelligents",
-                "Consultation IA",
-                "Intégration Solutions IA"
-              ],
-              "aggregateRating": {
-                "@type": "AggregateRating",
-                "ratingValue": "4.9",
-                "reviewCount": "47"
-              }
+              "serviceType": [
+                "Prospection B2B",
+                "Prospection automatisée par IA",
+                "Campagnes Email et WhatsApp B2B",
+                "Génération de prospects B2B",
+                "Stratégie commerciale B2B Antilles"
+              ]
             })
           }}
         />
@@ -161,42 +152,46 @@ export default function RootLayout({
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "Service",
-              "name": "Services IA pour Entreprises",
-              "description": "Solutions complètes d'intelligence artificielle : diagnostic, formation, automatisation, chatbots personnalisés.",
+              "name": "Smart Prospect - Prospection B2B IA",
+              "description":
+                "Campagne de prospection B2B par IA : identification de vos prospects, messages personnalisés, envois multi-canal et 30 à 80 prospects intéressés livrés aux entreprises en Guadeloupe, Martinique et Guyane.",
               "provider": {
                 "@type": "Organization",
-                "name": "IA Intégrateur Guadeloupe"
+                "name": "IA Solutions Guadeloupe"
               },
               "areaServed": {
                 "@type": "Place",
-                "name": "Guadeloupe, Martinique, Antilles françaises"
+                "name": "Guadeloupe, Martinique, Guyane, Antilles françaises"
               },
               "hasOfferCatalog": {
                 "@type": "OfferCatalog",
-                "name": "Services IA",
+                "name": "Offres Smart Prospect",
                 "itemListElement": [
                   {
                     "@type": "Offer",
                     "itemOffered": {
                       "@type": "Service",
-                      "name": "Diagnostic IA Gratuit",
-                      "description": "Analyse gratuite de vos processus pour identifier les opportunités d'automatisation"
-                    }
-                  },
-                  {
-                    "@type": "Offer",
-                    "itemOffered": {
-                      "@type": "Service", 
-                      "name": "Formation IA Équipes",
-                      "description": "Formation pratique aux outils IA : ChatGPT, automatisation, workflows intelligents"
+                      "name": "Campagne Smart Prospect",
+                      "description":
+                        "Campagne de prospection B2B sur 30 jours avec ciblage géolocalisé, messages personnalisés par IA et remontée des réponses en temps réel."
                     }
                   },
                   {
                     "@type": "Offer",
                     "itemOffered": {
                       "@type": "Service",
-                      "name": "Chatbots Intelligents",
-                      "description": "Développement de chatbots personnalisés avec vos données d'entreprise"
+                      "name": "Prospection B2B IA",
+                      "description":
+                        "Prospection B2B multi-canal par IA (Email + WhatsApp) vers les décideurs des entreprises cibles."
+                    }
+                  },
+                  {
+                    "@type": "Offer",
+                    "itemOffered": {
+                      "@type": "Service",
+                      "name": "Accompagnement stratégique B2B",
+                      "description":
+                        "Conseil sur la structuration de votre offre B2B, la qualification des prospects et le suivi commercial aux Antilles."
                     }
                   }
                 ]
