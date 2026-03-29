@@ -42,19 +42,8 @@ export default function HomePage() {
               <p className="text-lg text-gray-400 mb-4 max-w-3xl mx-auto">
                 En <strong className="text-blue-400">30 jours</strong>, nous visons <strong className="text-blue-400">50 à 100 décideurs B2B</strong> qui ouvrent votre message ou engagent une conversation — et nous vous livrons :
               </p>
-              
-              {/* En bref */}
-              <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 border border-blue-400/30 max-w-2xl mx-auto mb-8 text-left">
-                <h3 className="font-bold text-white mb-3 text-sm uppercase tracking-wide">📋 En bref</h3>
-                <ul className="text-blue-100 text-sm space-y-2">
-                  <li><strong className="text-white">2 500 € HT</strong> — même budget qu&apos;un panneau 4x3 ou une campagne radio</li>
-                  <li><strong className="text-white">30 jours</strong> — cadrage, envois progressifs, transmission des prospects</li>
-                  <li><strong className="text-white">30 à 80 prospects intéressés</strong> livrés avec coordonnées et contexte</li>
-                  <li><strong className="text-white">Pas de formation, pas d&apos;outil à maîtriser</strong> — on gère tout de A à Z</li>
-                </ul>
-              </div>
 
-              <div className="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-4xl mx-auto mb-12">
+              <div className="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-4xl mx-auto mb-8">
                 <div className="bg-white/10 backdrop-blur-sm rounded-xl p-4 border border-white/20 hover:border-blue-400 transition-all duration-300">
                   <div className="text-3xl mb-2">👁️</div>
                   <div className="font-bold text-white mb-1 text-sm">Visibilité massive</div>
@@ -78,6 +67,17 @@ export default function HomePage() {
                   <div className="font-bold text-white mb-1 text-sm">Rapport & données</div>
                   <div className="text-gray-400 text-xs">Rapport final détaillé + recommandations</div>
                 </div>
+              </div>
+
+              {/* En bref */}
+              <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 border border-blue-400/30 max-w-2xl mx-auto mb-12 text-left">
+                <h3 className="font-bold text-white mb-3 text-sm uppercase tracking-wide">📋 En bref</h3>
+                <ul className="text-blue-100 text-sm space-y-2">
+                  <li><strong className="text-white">30 à 80 prospects intéressés</strong> livrés avec coordonnées et contexte</li>
+                  <li><strong className="text-white">30 jours</strong> — cadrage, envois progressifs, transmission des prospects</li>
+                  <li><strong className="text-white">Pas de formation, pas d&apos;outil à maîtriser</strong> — on gère tout de A à Z</li>
+                  <li><strong className="text-white">2 500 € HT</strong> — même budget qu&apos;un panneau 4x3 ou une campagne radio</li>
+                </ul>
               </div>
 
               <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-16">
