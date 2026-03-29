@@ -201,8 +201,11 @@ export default function AboutPage() {
                   <div className="flex-1">
                     <h3 className="text-2xl font-bold text-white mb-3">Le constat terrain</h3>
                     <p className="text-blue-200 mb-4 text-lg">
-                      En 2024, au sein d&apos;un grand groupe de la distribution, j&apos;ai observé une problématique récurrente : l&apos;équipe commerciale passait <strong className="text-white">des dizaines d&apos;heures par mois</strong> à identifier et contacter manuellement des prospects B2B.
-                    </p>
+                    En 2024, au sein d&apos;un grand groupe de la distribution, j&apos;ai observé une problématique récurrente : 
+                    <strong className="text-white">l&apos;absence de prospection structurée vers les professionnels</strong>. 
+                    Aucune communication ciblée n&apos;était mise en place pour toucher efficacement les entreprises, les collectivités ou les associations, 
+                    laissant ainsi un fort potentiel B2B inexploité.
+                  </p>
                     <div className="bg-red-900/20 rounded-xl p-6 border border-red-500/30">
                       <p className="text-red-200 mb-3">
                         <strong className="text-white">❌ Problèmes identifiés :</strong>
