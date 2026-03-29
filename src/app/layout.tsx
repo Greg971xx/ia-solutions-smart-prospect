@@ -17,38 +17,26 @@ const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.ia-solutions-gu
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
 
-  title: 'Smart Prospect | Prospection B2B IA en Guadeloupe',
+  title: 'IA Solutions Guadeloupe | Smart Prospect – Prospection B2B par IA',
   description:
-    'Smart Prospect est une solution de prospection B2B par IA basée en Guadeloupe. En 30 jours, 50 à 100 décideurs B2B sont contactés et 30 à 80 prospects intéressés vous sont livrés en Guadeloupe, Martinique et Guyane.',
+    'IA Solutions Guadeloupe accompagne les entreprises avec Smart Prospect, une solution de prospection B2B par IA. Identification de prospects, messages personnalisés et campagnes Email + WhatsApp en Guadeloupe, Martinique et Guyane.',
   keywords: [
-    'prospection B2B Guadeloupe',
-    'prospection B2B Antilles',
-    'prospection IA Guadeloupe',
-    'Smart Prospect',
     'IA Solutions Guadeloupe',
+    'prospection B2B Guadeloupe',
+    'Smart Prospect',
+    'prospection IA Guadeloupe',
     'prospection entreprises Guadeloupe',
     'prospection automatisée B2B',
     'génération de prospects B2B Guadeloupe',
     'prospection B2B Martinique',
     'prospection B2B Guyane',
+    'emailing B2B Guadeloupe',
+    'WhatsApp B2B Guadeloupe',
   ],
   authors: [{ name: 'IA Solutions Guadeloupe' }],
   creator: 'IA Solutions Guadeloupe',
   publisher: 'IA Solutions Guadeloupe',
-  icons: {
-    icon: [
-      { url: '/favicon.ico', sizes: 'any' },
-      { url: '/favicon-16x16.png', type: 'image/png', sizes: '16x16' },
-      { url: '/favicon-32x32.png', type: 'image/png', sizes: '32x32' },
-    ],
-    apple: [
-      { url: '/apple-touch-icon.png', sizes: '180x180', type: 'image/png' },
-    ],
-    other: [
-      { url: '/android-chrome-192x192.png', sizes: '192x192', type: 'image/png' },
-      { url: '/android-chrome-512x512.png', sizes: '512x512', type: 'image/png' },
-    ],
-  },
+
   robots: {
     index: true,
     follow: true,
@@ -60,37 +48,37 @@ export const metadata: Metadata = {
       'max-snippet': -1,
     },
   },
+
   openGraph: {
     type: 'website',
     locale: 'fr_FR',
     url: '/',
-    title: 'Smart Prospect | Prospection B2B IA en Guadeloupe',
+    title: 'IA Solutions Guadeloupe | Smart Prospect – Prospection B2B par IA',
     description:
-      'Campagnes de prospection B2B ultra-personnalisées par IA : 50 à 100 décideurs touchés et 30 à 80 prospects intéressés livrés pour les entreprises en Guadeloupe, Martinique et Guyane.',
-    siteName: 'IA Solutions Guadeloupe - Smart Prospect',
+      'Solution de prospection B2B par IA pour les entreprises en Guadeloupe, Martinique et Guyane : ciblage, messages personnalisés et campagnes Email + WhatsApp.',
+    siteName: 'IA Solutions Guadeloupe',
     images: [
       {
-        // 🔁 relatif → https://.../og-image.jpg
         url: '/og-image.jpg',
         width: 1200,
         height: 630,
-        alt: 'Solutions IA pour entreprises en Guadeloupe',
+        alt: 'IA Solutions Guadeloupe - Smart Prospect',
       },
     ],
   },
+
   twitter: {
     card: 'summary_large_image',
-    title: 'Smart Prospect | Prospection B2B IA en Guadeloupe',
+    title: 'IA Solutions Guadeloupe | Smart Prospect – Prospection B2B par IA',
     description:
-      'Prospection B2B par IA pour les entreprises en Guadeloupe, Martinique et Guyane. 50 à 100 décideurs B2B contactés, 30 à 80 prospects intéressés livrés en 30 jours.',
+      'Prospection B2B par IA en Guadeloupe, Martinique et Guyane : identification des prospects, messages personnalisés et campagnes multi-canal.',
     images: ['/twitter-image.jpg'],
   },
+
   alternates: {
     canonical: '/',
   },
-  other: {
-    'google-site-verification': 'votre-code-verification-google',
-  },
+
 }
 
 export default function RootLayout({
