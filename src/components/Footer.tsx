@@ -56,7 +56,7 @@ export default function Footer() {
         <div className="max-w-6xl mx-auto px-6 py-12">
           <div className="bg-gradient-to-r from-green-600/20 to-blue-600/20 rounded-3xl p-8 md:p-12 border border-green-500/30 backdrop-blur-sm text-center">
             <h3 className="text-3xl md:text-4xl font-bold mb-4">
-              Prêt à générer vos premiers clients B2B ?
+              Prêt à lancer votre campagne Smart Prospect ?
             </h3>
             <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
               Démo gratuite de 20 minutes • Analyse de votre marché • Proposition sur-mesure
@@ -67,7 +67,7 @@ export default function Footer() {
                 href="/contact"
                 className="inline-block bg-gradient-to-r from-green-600 to-blue-600 text-white px-10 py-5 rounded-2xl font-bold text-lg hover:scale-105 transition-transform shadow-2xl"
               >
-                Demander une démo 🚀
+                Demander une démo
               </Link>
               <a
                 href="https://wa.me/+33769182076?text=Bonjour, je souhaite une démo Smart Prospect"
@@ -75,7 +75,7 @@ export default function Footer() {
                 rel="noopener noreferrer"
                 className="inline-block border-2 border-white/50 bg-white/10 backdrop-blur-sm text-white px-10 py-5 rounded-2xl font-bold text-lg hover:bg-white/20 transition-all"
               >
-                💬 WhatsApp direct
+                WhatsApp
               </a>
             </div>
           </div>
@@ -99,7 +99,7 @@ export default function Footer() {
             </div>
             
             <p className="text-gray-400 text-sm mb-6">
-              L&apos;agence qui génère 10-45 nouveaux clients B2B pour votre entreprise grâce à la prospection automatisée ultra-personnalisée.
+              Campagne Smart Prospect en 30 jours : objectif <strong className="text-gray-300">50 à 100</strong> décideurs B2B qui ouvrent ou répondent, <strong className="text-gray-300">30 à 80</strong> prospects intéressés livrés — prospection IA personnalisée aux Antilles.
             </p>
 
             {/* Contact Info */}
@@ -221,7 +221,7 @@ export default function Footer() {
                 rel="noopener noreferrer"
                 className="text-xs bg-green-600 text-white px-4 py-2 rounded-lg font-medium hover:bg-green-700 transition-colors inline-block w-full text-center"
               >
-                WhatsApp immédiat
+                WhatsApp
               </a>
             </div>
           </div>

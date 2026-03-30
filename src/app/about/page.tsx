@@ -370,21 +370,26 @@ export default function AboutPage() {
                 Smart Prospect n&apos;est pas une promesse, c&apos;est une réalité prouvée
               </h3>
               <p className="text-blue-100 mb-8 max-w-2xl mx-auto text-lg">
-                Testé et validé dans un environnement professionnel exigeant, Smart Prospect est aujourd&apos;hui disponible pour votre entreprise.
+                Testé et validé dans un environnement professionnel exigeant, Smart Prospect est aujourd&apos;hui disponible pour votre entreprise.{' '}
+                <Link href="/methode" className="underline font-semibold hover:text-white">
+                  Découvrir la méthode
+                </Link>
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Link 
-                  href="/methode"
-                  className="inline-block px-8 py-4 bg-white text-blue-600 font-bold rounded-xl hover:bg-blue-50 transition-all shadow-lg hover:shadow-xl"
-                >
-                  Découvrir la méthode
-                </Link>
-                <Link 
                   href="/contact"
-                  className="inline-block px-8 py-4 bg-blue-900 text-white font-bold rounded-xl hover:bg-blue-800 transition-all shadow-lg hover:shadow-xl"
+                  className="inline-block px-8 py-4 bg-white text-blue-600 font-bold rounded-xl hover:bg-blue-50 transition-all shadow-lg hover:shadow-xl"
                 >
                   Demander une démo
                 </Link>
+                <a
+                  href="https://wa.me/33769182076?text=Bonjour,%20je%20souhaite%20en%20savoir%20plus%20sur%20Smart%20Prospect"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block px-8 py-4 bg-green-600 text-white font-bold rounded-xl hover:bg-green-700 transition-all shadow-lg hover:shadow-xl text-center"
+                >
+                  WhatsApp
+                </a>
               </div>
             </div>
           </div>
@@ -452,7 +457,7 @@ export default function AboutPage() {
                 href="/contact"
                 className="inline-block px-8 py-4 bg-gradient-to-r from-green-600 to-blue-600 text-white font-bold rounded-xl hover:scale-105 transition-all duration-300 shadow-xl"
               >
-                Demander une démo gratuite
+                Demander une démo
               </Link>
               <a
                 href="https://wa.me/33769182076?text=Bonjour,%20je%20souhaite%20en%20savoir%20plus%20sur%20Smart%20Prospect"
@@ -460,7 +465,7 @@ export default function AboutPage() {
                 rel="noopener noreferrer"
                 className="inline-block px-8 py-4 bg-green-600 text-white font-bold rounded-xl hover:bg-green-700 transition-all duration-300 shadow-xl"
               >
-                📱 WhatsApp direct
+                WhatsApp
               </a>
             </div>
           </div>

@@ -248,7 +248,7 @@ export default function MethodePage() {
                       <strong className="text-white">Exemple segment &quot;Hôtels 4★&quot; :</strong><br/><br/>
                       Bonjour M. Dupont,<br/><br/>
                       Grégory DECLERCQ - IA Solutions Guadeloupe, mandaté par Decathlon Guadeloupe.<br/><br/>
-                      Votre hôtel 4★ Le Jardin Tropical propose-t-il des activités nautiques à vos clients ?<br/><br/>
+                      Votre hôtel 4★ propose-t-il des activités nautiques à vos clients ?<br/><br/>
                       Decathlon propose une gamme complète d&apos;équipements B2B (kayaks, paddles, snorkeling) avec tarifs préférentiels pour hôteliers.<br/><br/>
                       Seriez-vous intéressé par un échange rapide ?
                     </div>
@@ -634,10 +634,10 @@ export default function MethodePage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link 
-                href="/#contact"
+                href="/contact"
                 className="inline-block px-8 py-4 bg-white text-blue-600 font-bold rounded-xl hover:bg-blue-50 transition-all shadow-lg hover:shadow-xl"
               >
-                Demander une démo gratuite
+                Demander une démo
               </Link>
               <a 
                 href="https://wa.me/33769182076?text=Bonjour,%20je%20souhaite%20en%20savoir%20plus%20sur%20Smart%20Prospect"
@@ -645,7 +645,7 @@ export default function MethodePage() {
                 rel="noopener noreferrer"
                 className="inline-block px-8 py-4 bg-green-600 text-white font-bold rounded-xl hover:bg-green-700 transition-all shadow-lg hover:shadow-xl"
               >
-                📱 WhatsApp direct
+                WhatsApp
               </a>
             </div>
           </div>

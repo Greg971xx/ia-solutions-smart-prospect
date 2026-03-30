@@ -78,7 +78,7 @@ export default function MethodThreeSteps() {
           href="/contact"
           className="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg font-medium hover:bg-blue-700"
         >
-          Réserver un diagnostic (1h)
+          Demander une démo
         </a>
       </div>
     </section>

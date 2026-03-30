@@ -314,10 +314,10 @@ export default function ChatbotWidget() {
         }).catch(() => console.warn('[Chatbot] Erreur envoi alerte email'))
         
         addBotMessage(
-          `🎉 Parfait ${updatedData.contactName} ! Votre brief est prêt.\n\n${briefSummaryContact}\n\n📧 Un expert vous contactera sous 24h.\n\nVous pouvez aussi m'envoyer ce brief par WhatsApp ou planifier un RDV :`,
+          `🎉 Parfait ${updatedData.contactName} ! Votre brief est prêt.\n\n${briefSummaryContact}\n\n📧 Un expert vous contactera sous 24h.\n\nPour aller plus vite :`,
           [
-            { label: '📞 Planifier un RDV', value: 'rdv' },
-            { label: '💬 M\'envoyer le brief par WhatsApp', value: 'whatsapp' }
+            { label: 'Demander une démo', value: 'rdv' },
+            { label: 'WhatsApp', value: 'whatsapp' }
           ]
         )
         break

@@ -115,7 +115,7 @@ export default function ContactPage() {
                   rel="noopener noreferrer"
                   className="border-2 border-green-600 text-green-700 px-8 py-4 rounded-xl font-semibold hover:bg-green-50 transition-colors"
                 >
-                  💬 Me contacter sur WhatsApp
+                  WhatsApp
                 </a>
               </div>
             </div>
@@ -139,10 +139,10 @@ export default function ContactPage() {
             </div>
 
             <h1 className="text-4xl md:text-5xl font-bold text-white mb-6">
-              Générez 10-45 nouveaux clients B2B
+              50 à 100 décideurs engagés, 30 à 80 prospects livrés
             </h1>
             <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
-              Démo gratuite de 20 minutes pour découvrir comment Smart Prospect peut transformer votre prospection
+              Démo gratuite de 20 minutes : même promesse qu&apos;en campagne — décideurs B2B qui ouvrent ou répondent, prospects intéressés avec coordonnées et contexte.
             </p>
             
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
@@ -171,7 +171,7 @@ export default function ContactPage() {
             <div className="bg-white rounded-3xl p-8 md:p-12 shadow-2xl">
               <div className="text-center mb-8">
                 <h2 className="text-3xl font-bold text-gray-900 mb-3">
-                  Demander une démo personnalisée
+                  Demander une démo
                 </h2>
                 <p className="text-gray-600">
                   Remplissez ce formulaire et je vous recontacte sous 24h
@@ -370,7 +370,7 @@ export default function ContactPage() {
                         Envoi en cours...
                       </div>
                     ) : (
-                      "Demander ma démo gratuite 🚀"
+                      "Demander une démo"
                     )}
                   </button>
                   <p className="text-center text-sm text-gray-500 mt-3">
@@ -406,7 +406,7 @@ export default function ContactPage() {
                   rel="noopener noreferrer"
                   className="inline-block bg-green-600 text-white px-6 py-3 rounded-2xl font-semibold hover:bg-green-700 transition-colors"
                 >
-                  Chatter maintenant
+                  WhatsApp
                 </a>
                 <p className="text-sm text-gray-400 mt-3">Réponse sous 2h</p>
               </div>
@@ -521,7 +521,7 @@ export default function ContactPage() {
               </div>
               <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 border border-white/20">
                 <h4 className="font-semibold text-white mb-3 text-lg">🎯 C&apos;est garanti ?</h4>
-                <p className="text-gray-300">Je garantis les moyens (campagne optimisée pour 50-100 décideurs B2B qui ouvrent ou répondent, 30-80 prospects intéressés livrés), pas le résultat final. Taux de réponse moyen : 7-12% vs 2-3% marché.</p>
+                <p className="text-gray-300">Je garantis les moyens (campagne optimisée : objectif 50 à 100 décideurs B2B qui ouvrent ou répondent, 30 à 80 prospects intéressés livrés), pas le résultat final. Taux de réponse moyen : 7-12% vs 2-3% marché.</p>
               </div>
             </div>
           </div>
@@ -532,17 +532,18 @@ export default function ContactPage() {
           <div className="max-w-4xl mx-auto px-6 text-center">
             <div className="bg-gradient-to-r from-green-600/20 to-blue-600/20 backdrop-blur-sm rounded-3xl p-12 border-2 border-green-500/30">
               <h3 className="text-3xl md:text-4xl font-bold text-white mb-6">
-                Prêt à générer vos premiers leads ?
+                Une question avant de démarrer ?
               </h3>
               <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
-                Planifiez votre démo gratuite maintenant et découvrez comment Smart Prospect peut transformer votre prospection B2B
+                Le formulaire ci-dessus suffit pour demander une démo. Vous préférez écrire en direct ? Utilisez WhatsApp.
               </p>
               <div className="flex flex-col sm:flex-row gap-6 justify-center">
                 <button
+                  type="button"
                   onClick={() => window.scrollTo({ top: 500, behavior: 'smooth' })}
                   className="bg-gradient-to-r from-green-500 to-blue-500 text-white px-10 py-5 rounded-2xl font-bold text-lg hover:scale-105 transition-transform duration-300 shadow-2xl"
                 >
-                  ↑ Remplir le formulaire
+                  Demander une démo
                 </button>
                 <a
                   href="https://wa.me/+33769182076?text=Bonjour, je souhaite une démo Smart Prospect"
@@ -550,7 +551,7 @@ export default function ContactPage() {
                   rel="noopener noreferrer"
                   className="border-2 border-white/50 text-white px-10 py-5 rounded-2xl font-bold text-lg hover:bg-white/10 transition-all duration-300"
                 >
-                  💬 WhatsApp direct
+                  WhatsApp
                 </a>
               </div>
             </div>

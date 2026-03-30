@@ -24,19 +24,19 @@ export default function HomePage() {
                 <span className="text-sm font-medium">🇬🇵 Guadeloupe • 🇲🇶 Martinique • 🇬🇫 Guyane</span>
               </div>
 
-              <h1 className="text-5xl md:text-7xl font-bold text-white mb-8 leading-tight">
-                Et si vos meilleurs clients
-                <span className="bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent block mt-2">
-                  n&apos;étaient pas ceux que vous contactez ?
+              <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-8 leading-tight max-w-5xl mx-auto">
+                <span className="block">Boostez votre CA en conquérant les clients pros.</span>
+                <span className="block mt-3 md:mt-4 bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
+                  On construit l&apos;offre, on prospecte — vous n&apos;avez qu&apos;à conclure.
                 </span>
               </h1>
 
               <p className="text-lg md:text-xl text-blue-200 mb-4 max-w-3xl mx-auto leading-relaxed">
-                Smart Prospect est une solution de prospection B2B par IA basée en Guadeloupe, au service des entreprises en Guadeloupe, Martinique et Guyane.
+                Smart Prospect identifie vos clients pros, personnalise chaque message par IA et vous livre les intéressés — en 30 jours.
               </p>
 
-              <p className="text-xl md:text-2xl text-gray-300 mb-6 max-w-3xl mx-auto leading-relaxed">
-                <strong className="text-white">Vous vendez aux particuliers ?</strong> Des entreprises, clubs et collectivités ont besoin de vous. <strong className="text-white">Vous faites déjà du B2B ?</strong> Vous ne touchez qu&apos;une partie de votre marché. <strong className="text-white">Développé pour un leader mondial du retail</strong>, Smart Prospect active un levier trop souvent négligé : <strong className="text-blue-400">les clients corporate</strong>.
+              <p className="text-base md:text-lg text-gray-300 mb-6 max-w-3xl mx-auto leading-relaxed">
+                Que vous vendiez aux particuliers ou déjà aux professionnels, il reste un marché entier qui ne vous connaît pas encore. On va le chercher pour vous — de A à Z.
               </p>
 
               <p className="text-lg text-gray-400 mb-4 max-w-3xl mx-auto">
@@ -47,7 +47,7 @@ export default function HomePage() {
                 <div className="bg-white/10 backdrop-blur-sm rounded-xl p-4 border border-white/20 hover:border-blue-400 transition-all duration-300">
                   <div className="text-3xl mb-2">👁️</div>
                   <div className="font-bold text-white mb-1 text-sm">Visibilité massive</div>
-                  <div className="text-gray-400 text-xs">Des centaines de décideurs B2B touchés</div>
+                  <div className="text-gray-400 text-xs">Vivier B2B local — objectif 50 à 100 décideurs engagés</div>
                 </div>
                 
                 <div className="bg-white/10 backdrop-blur-sm rounded-xl p-4 border border-white/20 hover:border-purple-400 transition-all duration-300">
@@ -95,7 +95,7 @@ export default function HomePage() {
                   rel="noopener noreferrer"
                   className="group border-2 border-white/30 bg-white/10 backdrop-blur-sm text-white px-10 py-5 rounded-xl font-bold text-lg hover:bg-white/20 transition-all duration-300"
                 >
-                  💬 Parler sur WhatsApp
+                  WhatsApp
                 </a>
               </div>
 
@@ -117,11 +117,11 @@ export default function HomePage() {
               {/* Quick Stats */}
               <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
                 <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 border border-white/20">
-                  <div className="text-3xl font-bold text-blue-400 mb-2">50-100</div>
+                  <div className="text-3xl font-bold text-blue-400 mb-2">50 à 100</div>
                   <div className="text-sm text-gray-300">décideurs B2B qui ouvrent ou répondent</div>
                 </div>
                 <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 border border-white/20">
-                  <div className="text-3xl font-bold text-green-400 mb-2">30-80</div>
+                  <div className="text-3xl font-bold text-green-400 mb-2">30 à 80</div>
                   <div className="text-sm text-gray-300">prospects intéressés livrés (coordonnées, contexte)</div>
                 </div>
                 <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 border border-white/20">
@@ -134,6 +134,15 @@ export default function HomePage() {
                 </div>
               </div>
             </div>
+          </div>
+        </section>
+
+        {/* Social proof — origine locale / retail */}
+        <section className="border-y border-slate-200/80 bg-slate-100 py-10 md:py-12">
+          <div className="max-w-3xl mx-auto px-6">
+            <p className="text-center text-slate-700 text-base md:text-lg leading-relaxed font-semibold italic rounded-xl bg-white/90 px-6 py-6 md:py-8 border border-slate-200 border-l-4 border-l-blue-500 shadow-sm">
+              Smart Prospect n&apos;est pas né dans un bureau parisien. Il a été développé en conditions réelles au sein d&apos;un grand groupe de la distribution en Guadeloupe — avant d&apos;être rendu accessible aux entreprises des Antilles.
+            </p>
           </div>
         </section>
 
@@ -494,75 +503,8 @@ export default function HomePage() {
                     <li>• Messages ultra-personnalisés IA</li>
                     <li>• Envoi multi-canal optimisé</li>
                     <li>• Suivi temps réel</li>
-                    <li>• 30-80 prospects intéressés livrés</li>
+                    <li>• 30 à 80 prospects intéressés livrés</li>
                   </ul>
-                </div>
-              </div>
-
-              {/* Cas d'usage concret restaurant */}
-              <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 border border-white/20">
-                <h4 className="font-bold text-xl mb-6 text-center">
-                  📊 Exemple concret : Restaurant créole
-                </h4>
-                
-                <div className="grid md:grid-cols-2 gap-8">
-                  
-                  {/* Avant */}
-                  <div>
-                    <div className="bg-red-900/30 rounded-xl p-4 mb-4 border border-red-500/30">
-                      <h5 className="font-bold text-red-300 mb-2">❌ AVANT Smart Prospect</h5>
-                    </div>
-                    <ul className="space-y-3 text-blue-100">
-                      <li className="flex items-start gap-2">
-                        <span className="text-red-400 mt-1">•</span>
-                        <span><strong>CA :</strong> 400k€ (100% particuliers)</span>
-                      </li>
-                      <li className="flex items-start gap-2">
-                        <span className="text-red-400 mt-1">•</span>
-                        <span><strong>B2B :</strong> 2-3 événements/an au hasard</span>
-                      </li>
-                      <li className="flex items-start gap-2">
-                        <span className="text-red-400 mt-1">•</span>
-                        <span><strong>Prospection :</strong> Aucune</span>
-                      </li>
-                      <li className="flex items-start gap-2">
-                        <span className="text-red-400 mt-1">•</span>
-                        <span><strong>Offre B2B :</strong> Inexistante</span>
-                      </li>
-                    </ul>
-                  </div>
-
-                  {/* Après */}
-                  <div>
-                    <div className="bg-green-900/30 rounded-xl p-4 mb-4 border border-green-500/30">
-                      <h5 className="font-bold text-green-300 mb-2">✅ APRÈS Smart Prospect</h5>
-                    </div>
-                    <ul className="space-y-3 text-blue-100">
-                      <li className="flex items-start gap-2">
-                        <span className="text-green-400 mt-1">•</span>
-                        <span><strong>CA :</strong> 480k€ (+80k€ B2B = +20%)</span>
-                      </li>
-                      <li className="flex items-start gap-2">
-                        <span className="text-green-400 mt-1">•</span>
-                        <span><strong>B2B :</strong> 8-12 contrats réguliers/an</span>
-                      </li>
-                      <li className="flex items-start gap-2">
-                        <span className="text-green-400 mt-1">•</span>
-                        <span><strong>Prospection :</strong> 450 entreprises contactées</span>
-                      </li>
-                      <li className="flex items-start gap-2">
-                        <span className="text-green-400 mt-1">•</span>
-                        <span><strong>Offre B2B :</strong> 3 formules traiteur pro</span>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-
-                {/* ROI */}
-                <div className="mt-6 pt-6 border-t border-white/20 text-center">
-                  <div className="text-sm text-blue-200 mb-2">Investissement Smart Prospect : 2 500 € HT</div>
-                  <div className="text-3xl font-bold text-green-400">ROI positif : visibilité + liste + CA 🚀</div>
-                  <div className="text-sm text-blue-200 mt-2">Communication établie avec des décideurs, CA additionnel possible selon closing</div>
                 </div>
               </div>
             </div>
@@ -642,22 +584,10 @@ export default function HomePage() {
                   <div>
                     <h4 className="font-bold text-white mb-2">Prospects intéressés livrés</h4>
                     <p className="text-gray-300 text-sm">
-                      Vous recevez 30-80 entreprises intéressées avec coordonnées et contexte, prêtes à discuter. Vous n&apos;avez qu&apos;à closer !
+                      Vous recevez 30 à 80 entreprises intéressées avec coordonnées et contexte, prêtes à discuter. Vous n&apos;avez qu&apos;à closer !
                     </p>
                   </div>
                 </div>
-              </div>
-            </div>
-
-            {/* Témoignage */}
-            <div className="mt-16 bg-gradient-to-r from-green-600 to-blue-600 rounded-3xl p-8 md:p-12 shadow-2xl text-white text-center">
-              <div className="text-5xl mb-6">💬</div>
-              <blockquote className="text-xl md:text-2xl font-medium mb-6 max-w-3xl mx-auto italic">
-                &quot;On pensait être uniquement B2C. Smart Prospect nous a ouvert les yeux sur le potentiel corporate. Aujourd&apos;hui, 25% de notre CA vient d&apos;entreprises qu&apos;on n&apos;aurait jamais contactées sans eux.&quot;
-              </blockquote>
-              <div className="text-blue-100">
-                <div className="font-bold text-lg">— Hôtel Jardin Tropical</div>
-                <div className="text-sm">Sainte-Anne, Guadeloupe • +120k€ CA B2B année 1</div>
               </div>
             </div>
 
@@ -673,7 +603,7 @@ export default function HomePage() {
                 href="/contact"
                 className="inline-block bg-gradient-to-r from-green-600 to-blue-600 text-white px-12 py-5 rounded-2xl font-bold text-lg hover:scale-105 transition-transform shadow-2xl"
               >
-                Analyser mon potentiel B2B (gratuit) →
+                Demander une démo →
               </Link>
             </div>
 
@@ -688,7 +618,7 @@ export default function HomePage() {
                 Une offre simple, au prix d&apos;une campagne de com&apos;
               </h2>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto mb-4">
-                Pour le budget d&apos;un panneau 4x3 ou d&apos;une campagne radio, vous obtenez : <strong>visibilité auprès de ~1000 décideurs</strong>, <strong>30 à 80 prospects intéressés livrés</strong> (coordonnées, contexte), <strong>rapport et recommandations</strong>. Pas d&apos;abonnement.
+                Pour le budget d&apos;un panneau 4x3 ou d&apos;une campagne radio, vous obtenez la même promesse qu&apos;au hero : <strong>50 à 100 décideurs B2B</strong> qui ouvrent ou répondent, <strong>30 à 80 prospects intéressés livrés</strong> (coordonnées, contexte), plus <strong>rapport et recommandations</strong>. Pas d&apos;abonnement.
               </p>
               <p className="text-sm text-gray-500 max-w-2xl mx-auto mb-6">
                 Secteurs que nous accompagnons en priorité : loueurs longue durée, services informatiques, alarmes, loueurs de matériel pro, traiteurs, comptables, avocats.
@@ -702,7 +632,7 @@ export default function HomePage() {
                 <div className="text-center mb-6">
                   <h3 className="text-2xl font-bold text-gray-900 mb-2">🚀 Campagne Smart Prospect</h3>
                   <div className="text-5xl font-extrabold text-green-600 mb-2">2 500 € HT</div>
-                  <p className="text-gray-600 font-semibold">Objectif : 50-100 décideurs B2B qui ouvrent ou répondent → 30-80 prospects intéressés livrés</p>
+                  <p className="text-gray-600 font-semibold">Objectif : 50 à 100 décideurs B2B qui ouvrent ou répondent → 30 à 80 prospects intéressés livrés</p>
                 </div>
                 
                 <div className="space-y-3 mb-6">
@@ -738,7 +668,7 @@ export default function HomePage() {
                   href="/contact"
                   className="block w-full bg-gradient-to-r from-green-600 to-blue-600 text-white text-center px-6 py-4 rounded-xl font-bold hover:scale-105 transition-transform shadow-lg"
                 >
-                  Lancer une campagne
+                  Demander une démo
                 </Link>
 
                 <div className="text-center mt-4 text-sm text-gray-500">
@@ -756,7 +686,7 @@ export default function HomePage() {
                 <div className="space-y-3 mb-6 flex-grow">
                   <div className="flex items-start gap-3">
                     <span className="text-gray-500 text-xl flex-shrink-0">✓</span>
-                    <span className="text-gray-700">Objectif 100+ conversations ou périmètre étendu</span>
+                    <span className="text-gray-700">Volume supérieur à la campagne standard ou périmètre étendu</span>
                   </div>
                   <div className="flex items-start gap-3">
                     <span className="text-gray-500 text-xl flex-shrink-0">✓</span>
@@ -772,7 +702,7 @@ export default function HomePage() {
                   href="/contact"
                   className="block w-full border-2 border-gray-400 text-gray-800 text-center px-6 py-4 rounded-xl font-bold hover:bg-gray-100 transition-all mt-auto"
                 >
-                  Demander un devis
+                  Demander une démo
                 </Link>
               </div>
 
@@ -870,8 +800,8 @@ export default function HomePage() {
                   <div className="flex items-start gap-3">
                     <span className="text-green-400 text-xl">✓</span>
                     <div>
-                      <div className="text-white font-semibold">Visibilité + liste de prospects</div>
-                      <div className="text-gray-300 text-sm">30-80 prospects intéressés avec coordonnées et contexte, réutilisables</div>
+                      <div className="text-white font-semibold">Objectif campagne (30 jours)</div>
+                      <div className="text-gray-300 text-sm">50 à 100 décideurs B2B qui ouvrent ou répondent, 30 à 80 prospects intéressés livrés (coordonnées, contexte)</div>
                     </div>
                   </div>
                   <div className="flex items-start gap-3">
@@ -892,7 +822,7 @@ export default function HomePage() {
                     <span className="text-green-400 text-xl">✓</span>
                     <div>
                       <div className="text-white font-semibold">Communication établie</div>
-                      <div className="text-gray-300 text-sm">Conversations engagées, prospects intéressés livrés (30-80)</div>
+                      <div className="text-gray-300 text-sm">Conversations engagées avec les décideurs, liste réutilisable</div>
                     </div>
                   </div>
                 </div>
@@ -924,7 +854,7 @@ export default function HomePage() {
               Prêt à lancer votre première campagne ?
             </h2>
             <p className="text-xl text-blue-200 mb-12">
-              Démo de 20 minutes : visibilité auprès de décideurs B2B, 30-80 prospects intéressés livrés, communication établie — au prix d&apos;une campagne de com&apos; classique
+              Démo de 20 minutes : objectif 50 à 100 décideurs B2B engagés, 30 à 80 prospects intéressés livrés — au prix d&apos;une campagne de com&apos; classique
             </p>
 
             <div className="bg-white/10 backdrop-blur-sm rounded-3xl p-8 border border-white/20 mb-8">
@@ -954,7 +884,7 @@ export default function HomePage() {
                 href="/contact"
                 className="inline-block bg-gradient-to-r from-green-500 to-blue-500 text-white px-12 py-6 rounded-2xl font-bold text-xl hover:scale-105 transition-transform duration-300 shadow-2xl"
               >
-                Demander une démo gratuite
+                Demander une démo
               </Link>
 
               <a
@@ -963,7 +893,7 @@ export default function HomePage() {
                 rel="noopener noreferrer"
                 className="inline-block border-2 border-white text-white px-12 py-6 rounded-2xl font-bold text-xl hover:bg-white/10 transition-all duration-300"
               >
-                💬 WhatsApp direct
+                WhatsApp
               </a>
             </div>
 
