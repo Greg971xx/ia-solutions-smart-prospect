@@ -1,7 +1,12 @@
+'use client'
+
 import Link from 'next/link'
+import { usePathname } from 'next/navigation'
 
 export default function Footer() {
+  const pathname = usePathname()
   const currentYear = new Date().getFullYear()
+  const showTopCtaBanner = pathname !== '/'
 
   const quickLinks = [
     { name: 'Accueil', href: '/' },
@@ -51,36 +56,38 @@ export default function Footer() {
   return (
     <footer className="bg-gradient-to-b from-slate-900 to-black text-white">
       
-      {/* CTA Section */}
-      <div className="border-b border-gray-800">
-        <div className="max-w-6xl mx-auto px-6 py-12">
-          <div className="bg-gradient-to-r from-green-600/20 to-blue-600/20 rounded-3xl p-8 md:p-12 border border-green-500/30 backdrop-blur-sm text-center">
-            <h3 className="text-3xl md:text-4xl font-bold mb-4">
-              Prêt à lancer votre campagne Smart Prospect ?
-            </h3>
-            <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
-              Démo gratuite de 20 minutes • Analyse de votre marché • Proposition sur-mesure
-            </p>
-            
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Link
-                href="/contact"
-                className="inline-block bg-gradient-to-r from-green-600 to-blue-600 text-white px-10 py-5 rounded-2xl font-bold text-lg hover:scale-105 transition-transform shadow-2xl"
-              >
-                Demander une démo
-              </Link>
-              <a
-                href="https://wa.me/+33769182076?text=Bonjour, je souhaite une démo Smart Prospect"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-block border-2 border-white/50 bg-white/10 backdrop-blur-sm text-white px-10 py-5 rounded-2xl font-bold text-lg hover:bg-white/20 transition-all"
-              >
-                WhatsApp
-              </a>
+      {/* CTA Section — masqué sur l'accueil (déjà un bloc CTA final sur la page) */}
+      {showTopCtaBanner && (
+        <div className="border-b border-gray-800">
+          <div className="max-w-6xl mx-auto px-6 py-12">
+            <div className="bg-gradient-to-r from-green-600/20 to-blue-600/20 rounded-3xl p-8 md:p-12 border border-green-500/30 backdrop-blur-sm text-center">
+              <h3 className="text-3xl md:text-4xl font-bold mb-4">
+                Prêt à lancer votre campagne Smart Prospect ?
+              </h3>
+              <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
+                Démo gratuite de 20 minutes • Analyse de votre marché • Proposition sur-mesure
+              </p>
+              
+              <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                <Link
+                  href="/contact"
+                  className="inline-block bg-gradient-to-r from-green-600 to-blue-600 text-white px-10 py-5 rounded-2xl font-bold text-lg hover:scale-105 transition-transform shadow-2xl"
+                >
+                  Demander une démo
+                </Link>
+                <a
+                  href="https://wa.me/+33769182076?text=Bonjour, je souhaite une démo Smart Prospect"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block border-2 border-white/50 bg-white/10 backdrop-blur-sm text-white px-10 py-5 rounded-2xl font-bold text-lg hover:bg-white/20 transition-all"
+                >
+                  WhatsApp
+                </a>
+              </div>
             </div>
           </div>
         </div>
-      </div>
+      )}
 
       {/* Main Footer */}
       <div className="max-w-6xl mx-auto px-6 py-12">
