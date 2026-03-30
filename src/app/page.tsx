@@ -26,7 +26,7 @@ export default function HomePage() {
 
               <h1 className="mb-4 leading-tight max-w-5xl mx-auto">
                 <span className="block text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white">
-                  Boostez votre CA en conquérant les clients pros.
+                  Boostez votre CA en conquérant des clients professionnels.
                 </span>
                 <span className="block mt-3 md:mt-4 text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
                   On construit l&apos;offre, on prospecte — vous n&apos;avez qu&apos;à conclure.

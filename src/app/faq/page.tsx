@@ -34,7 +34,7 @@ const faqItems: { question: string; answer: string }[] = [
       "« IA Guadeloupe » décrit notre ancrage : solutions d’intelligence artificielle appliquées aux entreprises des Antilles. Smart Prospect est le produit — une campagne de prospection B2B sur 30 jours avec objectifs d’engagement et de livraison de prospects intéressés. La marque IA Solutions Guadeloupe porte cette offre avec transparence sur le périmètre (prospection B2B, pas agence généraliste).",
   },
   {
-    question: "Je cherchais une agence de publicité à la Guadeloupe — est-ce le bon site ?",
+    question: "Je cherchais une agence de publicité en Guadeloupe — est-ce le bon site ?",
     answer:
       "Si votre besoin principal est la notoriété large (TV, radio, panneaux, réseaux sociaux sans ciblage B2B fin), une agence média ou de publicité classique peut être adaptée. Si vous voulez des rendez-vous et des leads auprès d’entreprises ciblées, avec un coût maîtrisé et des indicateurs sur les ouvertures et les réponses, Smart Prospect correspond mieux — dites-nous votre objectif en démo.",
   },
@@ -102,7 +102,7 @@ export default function FAQPage() {
 
           <div className="mt-12 p-6 rounded-2xl bg-gradient-to-br from-green-600/20 to-blue-600/20 border border-green-500/30 text-center">
             <p className="text-gray-200 mb-4">
-              Une question précise sur votre secteur à la Guadeloupe ?
+              Une question précise sur votre secteur en Guadeloupe ?
             </p>
             <Link
               href="/contact"
