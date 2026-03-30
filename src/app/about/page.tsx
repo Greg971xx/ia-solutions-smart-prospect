@@ -1,6 +1,13 @@
 import Image from 'next/image'
 import Link from 'next/link'
+import type { Metadata } from 'next'
 import Navigation from '@/components/Navigation'
+
+export const metadata: Metadata = {
+  title: 'À propos | IA Solutions Guadeloupe – IA & prospection B2B',
+  description:
+    'Grégory Declercq, fondateur d’IA Solutions Guadeloupe. Expert IA et Smart Prospect : solutions IA pour entreprises aux Antilles, prospection B2B — complément aux agences marketing locales.',
+}
 
 export default function AboutPage() {
   return (
@@ -88,7 +95,8 @@ export default function AboutPage() {
                   Ma mission
                 </h2>
                 <p className="text-blue-100 text-lg leading-relaxed mb-6">
-                  Transformer la prospection B2B des entreprises antillaises grâce à l&apos;intelligence artificielle, en leur offrant des solutions professionnelles testées et validées en environnement exigeant.
+                  Transformer la prospection B2B des entreprises antillaises grâce à l&apos;intelligence artificielle, en leur offrant des solutions professionnelles testées et validées en environnement exigeant. IA Solutions Guadeloupe n&apos;est pas une agence de communication à 360° : nous apportons une expertise{' '}
+                  <strong className="text-white">IA + prospection commerciale</strong>, au service de dirigeants qui cherchent des rendez-vous et des leads B2B en Guadeloupe et dans les Antilles.
                 </p>
                 <div className="bg-white/5 rounded-2xl p-6 border border-white/10">
                   <p className="text-white font-semibold mb-2">🎯 Vision</p>

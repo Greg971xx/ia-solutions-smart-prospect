@@ -1,5 +1,12 @@
 import Link from 'next/link';
+import type { Metadata } from 'next';
 import Navigation from '@/components/Navigation';
+
+export const metadata: Metadata = {
+  title: 'Notre méthode | IA Guadeloupe – Smart Prospect',
+  description:
+    'Déroulé d’une campagne Smart Prospect en Guadeloupe et aux Antilles : prospection B2B par IA, Email & WhatsApp. Pas une agence de communication généraliste — méthode focalisée acquisition B2B.',
+};
 
 export default function MethodePage() {
   return (
@@ -17,6 +24,28 @@ export default function MethodePage() {
           </h1>
           <p className="text-xl text-blue-200 max-w-3xl mx-auto">
             De la signature du contrat jusqu&apos;à la transmission des prospects intéressés : découvrez chaque étape de notre processus, transparent et structuré.
+          </p>
+        </div>
+      </div>
+
+      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 pb-12">
+        <div className="bg-white/5 backdrop-blur-sm rounded-2xl p-6 md:p-8 border border-white/15 text-left">
+          <h2 className="text-xl md:text-2xl font-bold text-white mb-3">
+            Pas une agence de communication classique
+          </h2>
+          <p className="text-blue-100 leading-relaxed mb-4">
+            Contrairement à une agence web ou une agence de communication qui couvre identité, site, création et parfois media,{' '}
+            <strong className="text-white">IA Solutions Guadeloupe</strong> concentre son expertise sur la{' '}
+            <strong className="text-white">prospection B2B pilotée par l&apos;IA</strong> (ciblage, messages, Email &amp; WhatsApp, livraison des leads). C&apos;est la promesse Smart Prospect — inchangée — exprimée avec le vocabulaire de celles et ceux qui cherchent une solution concrète d&apos;acquisition en Guadeloupe.
+          </p>
+          <p className="text-sm text-blue-200/90">
+            <Link href="/faq" className="text-blue-300 font-semibold hover:underline">
+              Questions fréquentes (agence vs spécialiste, marketing digital)
+            </Link>
+            {' · '}
+            <Link href="/contact" className="text-blue-300 font-semibold hover:underline">
+              Demander une démo
+            </Link>
           </p>
         </div>
       </div>

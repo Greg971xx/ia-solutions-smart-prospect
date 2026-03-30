@@ -11,6 +11,7 @@ export default function Footer() {
   const quickLinks = [
     { name: 'Accueil', href: '/' },
     { name: 'Comment ça marche', href: '/methode' },
+    { name: 'FAQ', href: '/faq' },
     { name: 'Demander une démo', href: '/contact' },
     { name: 'À propos', href: '/about' },
   ]
@@ -24,6 +25,7 @@ export default function Footer() {
 
   const resources = [
     { name: 'Méthode complète', href: '/methode' },
+    { name: 'FAQ (IA, marketing, agences)', href: '/faq' },
     { name: 'Comparaison vs Agences', href: '/#comparaison' },
   ]
 

@@ -17,12 +17,15 @@ const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.ia-solutions-gu
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
 
-  title: 'IA Solutions Guadeloupe | Smart Prospect – Prospection B2B par IA',
+  title: 'IA Guadeloupe | Smart Prospect – Prospection B2B par IA | IA Solutions',
   description:
-    'IA Solutions Guadeloupe accompagne les entreprises avec Smart Prospect, une solution de prospection B2B par IA. Identification de prospects, messages personnalisés et campagnes Email + WhatsApp en Guadeloupe, Martinique et Guyane.',
+    'IA Solutions Guadeloupe : solutions IA pour entreprises aux Antilles. Smart Prospect — prospection B2B par IA, messages personnalisés, campagnes Email + WhatsApp. Marketing de la prospection en Guadeloupe, Martinique et Guyane.',
   keywords: [
+    'IA Guadeloupe',
     'IA Solutions Guadeloupe',
+    'intelligence artificielle Guadeloupe',
     'prospection B2B Guadeloupe',
+    'marketing B2B Guadeloupe',
     'Smart Prospect',
     'prospection IA Guadeloupe',
     'prospection entreprises Guadeloupe',
@@ -53,9 +56,9 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'fr_FR',
     url: '/',
-    title: 'IA Solutions Guadeloupe | Smart Prospect – Prospection B2B par IA',
+    title: 'IA Guadeloupe | Smart Prospect – Prospection B2B par IA',
     description:
-      'Solution de prospection B2B par IA pour les entreprises en Guadeloupe, Martinique et Guyane : ciblage, messages personnalisés et campagnes Email + WhatsApp.',
+      'Solutions IA pour entreprises aux Antilles : prospection B2B par IA en Guadeloupe, Martinique et Guyane — ciblage, messages personnalisés, Email + WhatsApp.',
     siteName: 'IA Solutions Guadeloupe',
     images: [
       {
@@ -69,9 +72,9 @@ export const metadata: Metadata = {
 
   twitter: {
     card: 'summary_large_image',
-    title: 'IA Solutions Guadeloupe | Smart Prospect – Prospection B2B par IA',
+    title: 'IA Guadeloupe | Smart Prospect – Prospection B2B par IA',
     description:
-      'Prospection B2B par IA en Guadeloupe, Martinique et Guyane : identification des prospects, messages personnalisés et campagnes multi-canal.',
+      'IA Solutions Guadeloupe — prospection B2B par IA aux Antilles : identification des prospects, messages personnalisés et campagnes multi-canal.',
     images: ['/twitter-image.jpg'],
   },
 
@@ -102,7 +105,7 @@ export default function RootLayout({
               "@type": "LocalBusiness",
               "name": "IA Solutions Guadeloupe - Smart Prospect",
               "description":
-                "Smart Prospect est une solution de prospection B2B automatisée par IA pour les entreprises en Guadeloupe, Martinique et Guyane.",
+                "Solutions IA pour entreprises en Guadeloupe et aux Antilles. Smart Prospect : prospection B2B automatisée par IA et marketing de la prospection (outreach, qualification).",
               "url": "https://www.ia-solutions-guadeloupe.fr",
               "telephone": "+33 7 69 18 20 76",
               "email": "gregory@ia-solutions-guadeloupe.fr",
@@ -123,8 +126,10 @@ export default function RootLayout({
                 "longitude": -61.5510
               },
               "serviceType": [
+                "Solutions IA pour entreprises en Guadeloupe",
                 "Prospection B2B",
                 "Prospection automatisée par IA",
+                "Marketing de la prospection B2B",
                 "Campagnes Email et WhatsApp B2B",
                 "Génération de prospects B2B",
                 "Stratégie commerciale B2B Antilles"
@@ -142,7 +147,7 @@ export default function RootLayout({
               "@type": "Service",
               "name": "Smart Prospect - Prospection B2B IA",
               "description":
-                "Campagne de prospection B2B par IA : identification de vos prospects, messages personnalisés, envois multi-canal et 30 à 80 prospects intéressés livrés aux entreprises en Guadeloupe, Martinique et Guyane.",
+                "Campagne de prospection B2B par IA (IA Guadeloupe / Antilles) : identification de vos prospects, messages personnalisés, envois multi-canal et 30 à 80 prospects intéressés livrés en Guadeloupe, Martinique et Guyane.",
               "provider": {
                 "@type": "Organization",
                 "name": "IA Solutions Guadeloupe"
@@ -188,6 +193,7 @@ export default function RootLayout({
           }}
         />
 
+        {/* Google Ads (réf. stratégie) : prioriser « ia guadeloupe » et variantes B2B ; secondaires marketing / prospection ; requêtes « agence » en observation ou enchères modérées */}
         {/* Google Analytics */}
         <script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script>
         <script

@@ -24,7 +24,7 @@ export default function HomePage() {
                 <span className="text-sm font-medium">🇬🇵 Guadeloupe • 🇲🇶 Martinique • 🇬🇫 Guyane</span>
               </div>
 
-              <h1 className="mb-8 leading-tight max-w-5xl mx-auto">
+              <h1 className="mb-4 leading-tight max-w-5xl mx-auto">
                 <span className="block text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white">
                   Boostez votre CA en conquérant les clients pros.
                 </span>
@@ -32,6 +32,10 @@ export default function HomePage() {
                   On construit l&apos;offre, on prospecte — vous n&apos;avez qu&apos;à conclure.
                 </span>
               </h1>
+
+              <p className="text-sm md:text-base text-blue-300/95 font-medium max-w-2xl mx-auto mb-6">
+                IA Solutions Guadeloupe — solutions IA pour la prospection B2B aux Antilles (Guadeloupe, Martinique, Guyane).
+              </p>
 
               <p className="text-lg md:text-xl text-blue-200 mb-4 max-w-3xl mx-auto leading-relaxed">
                 Smart Prospect identifie vos clients pros, personnalise chaque message par IA et vous livre les intéressés — en 30 jours.
@@ -144,6 +148,28 @@ export default function HomePage() {
           <div className="max-w-3xl mx-auto px-6">
             <p className="text-center text-slate-700 text-base md:text-lg leading-relaxed font-semibold italic rounded-xl bg-white/90 px-6 py-6 md:py-8 border border-slate-200 border-l-4 border-l-blue-500 shadow-sm">
               Smart Prospect n&apos;est pas né dans un bureau parisien. Il a été développé en conditions réelles au sein d&apos;un grand groupe de la distribution en Guadeloupe — avant d&apos;être rendu accessible aux entreprises des Antilles.
+            </p>
+          </div>
+        </section>
+
+        {/* Positionnement : agence marketing / com vs spécialiste prospection IA */}
+        <section className="py-16 md:py-20 bg-slate-50 border-y border-slate-200">
+          <div className="max-w-4xl mx-auto px-6 text-center">
+            <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4">
+              Pas une agence de communication classique — une équipe focalisée sur la prospection B2B par IA en Guadeloupe
+            </h2>
+            <p className="text-lg text-gray-700 leading-relaxed mb-4">
+              Beaucoup de recherches « agence web », « agence digitale » ou « marketing Guadeloupe » visent la visibilité globale (site, création, publicité). Chez IA Solutions Guadeloupe, nous intervenons sur une brique précise :{' '}
+              <strong>l&apos;acquisition B2B</strong> — identification des décideurs, messages personnalisés par IA, campagnes Email &amp; WhatsApp et remontée des prospects intéressés. Smart Prospect reste notre offre ; nous ne remplaçons pas une agence 360°, nous complémentons votre croissance commerciale.
+            </p>
+            <p className="text-gray-600">
+              <Link href="/faq" className="text-blue-600 font-semibold hover:underline">
+                FAQ → agence web, marketing digital et IA locale
+              </Link>
+              {' · '}
+              <Link href="/contact" className="text-blue-600 font-semibold hover:underline">
+                Nous contacter
+              </Link>
             </p>
           </div>
         </section>

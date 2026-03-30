@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { useState } from 'react';
 
 interface NavigationProps {
-  currentPage?: 'accueil' | 'methode' | 'about' | 'contact';
+  currentPage?: 'accueil' | 'methode' | 'about' | 'contact' | 'faq';
 }
 
 export default function Navigation({ currentPage = 'accueil' }: NavigationProps) {
@@ -49,6 +49,16 @@ export default function Navigation({ currentPage = 'accueil' }: NavigationProps)
               }`}
             >
               À propos
+            </Link>
+            <Link 
+              href="/faq" 
+              className={`transition-colors ${
+                currentPage === 'faq' 
+                  ? 'text-white font-semibold' 
+                  : 'text-blue-200 hover:text-white'
+              }`}
+            >
+              FAQ
             </Link>
             <Link 
               href="/contact" 
@@ -114,6 +124,17 @@ export default function Navigation({ currentPage = 'accueil' }: NavigationProps)
                 onClick={() => setIsMobileMenuOpen(false)}
               >
                 À propos
+              </Link>
+              <Link 
+                href="/faq" 
+                className={`py-2 px-4 rounded transition-colors ${
+                  currentPage === 'faq' 
+                    ? 'bg-blue-600 text-white' 
+                    : 'text-blue-200 hover:bg-white/10'
+                }`}
+                onClick={() => setIsMobileMenuOpen(false)}
+              >
+                FAQ
               </Link>
               <Link 
                 href="/contact" 
