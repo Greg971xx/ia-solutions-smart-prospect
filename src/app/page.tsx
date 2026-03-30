@@ -24,9 +24,11 @@ export default function HomePage() {
                 <span className="text-sm font-medium">🇬🇵 Guadeloupe • 🇲🇶 Martinique • 🇬🇫 Guyane</span>
               </div>
 
-              <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-8 leading-tight max-w-5xl mx-auto">
-                <span className="block">Boostez votre CA en conquérant les clients pros.</span>
-                <span className="block mt-3 md:mt-4 bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
+              <h1 className="mb-8 leading-tight max-w-5xl mx-auto">
+                <span className="block text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white">
+                  Boostez votre CA en conquérant les clients pros.
+                </span>
+                <span className="block mt-3 md:mt-4 text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
                   On construit l&apos;offre, on prospecte — vous n&apos;avez qu&apos;à conclure.
                 </span>
               </h1>
